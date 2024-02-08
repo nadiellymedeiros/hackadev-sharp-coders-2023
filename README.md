@@ -74,3 +74,19 @@ Esse projeto foi o trabalh ode conclusão de curso no programa Sharp Coders da �
 <div ><a href="https://www.linkedin.com/in/antonio-santana-0a052284/"><img src="https://img.shields.io/badge/-Antônio-blue?style=flat-square&logo=Linkedin&logoColor=white"/></a></div>
 
 </br></br>
+
+<div ><img src="https://avatars.githubusercontent.com/u/138252693?v=4" width="100px;" alt=""/></div>
+
+<div ><a href="https://github.com/AmandaSantos05">Amanda Santos</a></div>
+
+<div ><a href="https://www.linkedin.com/in/amanda-santos-52734726a/"><img src="https://img.shields.io/badge/-Amanda-blue?style=flat-square&logo=Linkedin&logoColor=white"/></a></div>
+
+</br></br>
+
+<div ><img src="https://www.linkedin.com/in/douglas-cooimbra/overlay/photo/" width="100px;" alt=""/></div>
+
+<div ><a href="https://www.linkedin.com/in/douglas-cooimbra/">Douglas Coimbra</a></div>
+
+<div ><a href="https://www.linkedin.com/in/douglas-cooimbra/"><img src="https://img.shields.io/badge/-Douglas-blue?style=flat-square&logo=Linkedin&logoColor=white"/></a></div>
+
+</br></br>
