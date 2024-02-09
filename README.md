@@ -83,10 +83,10 @@ Esse projeto foi o trabalh ode conclus√£o de curso no programa Sharp Coders da √
 
 </br></br>
 
-<div ><img src="https://www.linkedin.com/in/douglas-cooimbra/overlay/photo/" width="100px;" alt=""/></div>
+<div ><img src="https://avatars.githubusercontent.com/u/130368133?v=4" width="100px;" alt=""/></div>
 
-<div ><a href="https://www.linkedin.com/in/douglas-cooimbra/">Douglas Coimbra</a></div>
+<div ><a href="https://github.com/alanvargas04">Alan Vargas</a></div>
 
-<div ><a href="https://www.linkedin.com/in/douglas-cooimbra/"><img src="https://img.shields.io/badge/-Douglas-blue?style=flat-square&logo=Linkedin&logoColor=white"/></a></div>
+<div ><a href="https://www.linkedin.com/in/alan-vargas-37b09b297/"><img src="https://img.shields.io/badge/-Alan-blue?style=flat-square&logo=Linkedin&logoColor=white"/></a></div>
 
 </br></br>
