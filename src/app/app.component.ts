@@ -11,5 +11,5 @@ import { ExtratoComponent } from './paginas/extrato/extrato.component';
   styleUrl: './app.component.css',
 })
 export class AppComponent {
-  title = 'app-pay';
+  title = 'Tela de Login';
 }
