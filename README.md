@@ -115,11 +115,3 @@ Acompanhe nosso progresso e conheça um pouco do nosso desenvolvimento. Estamos 
 <div ><a href="https://www.linkedin.com/in/alan-vargas-37b09b297/"><img src="https://img.shields.io/badge/-Alan-blue?style=flat-square&logo=Linkedin&logoColor=white"/></a></div>
 
 </br></br>
-
-<div ><img src="https://avatars.githubusercontent.com/u/130368133?v=4" width="100px;" alt=""/></div>
-
-<div ><a href="https://github.com/alanvargas04">Alan Vargas</a></div>
-
-<div ><a href="https://www.linkedin.com/in/alan-vargas-37b09b297/"><img src="https://img.shields.io/badge/-Alan-blue?style=flat-square&logo=Linkedin&logoColor=white"/></a></div>
-
-</br></br>
