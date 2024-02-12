@@ -1,0 +1,37 @@
+a {
+    text-decoration: none;
+}
+
+.home-content {
+    width: auto;
+    height: auto;
+    margin-top: 10%;
+}
+
+.primeira-fileira {
+}
+
+.container-pai {
+    margin: 3%;     
+}
+
+.container-filho {
+    background-color: #FFF;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-filho  h6 {
+    font-size: large;
+    margin-top: 5px;
+    color: #F67816;
+}
+
+.container-filho  img {
+    width: 60px;
+}
