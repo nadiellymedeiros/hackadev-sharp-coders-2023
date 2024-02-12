@@ -1,8 +1,9 @@
-<h1 align="center"> SharpCoding Pay </h1>
+<h1> SharpCoding Pay </h1>
 
-<p align="center">Bem-vindo ao repositório oficial do projeto SharpCoding Pay, desenvolvido pela equipe SharpCoding como parte do curso Sharp Coders. Este projeto fintech tem como objetivo simular um ambiente profissional, proporcionando aos membros da equipe uma experiência real no desenvolvimento de software, estimulando o trabalho colaborativo, o aprimoramento de soft skills e o crescimento técnico.</p>
+<p>Bem-vindo ao repositório oficial do projeto SharpCoding Pay, desenvolvido pela equipe SharpCoding como parte do curso Sharp Coders. Este projeto fintech tem como objetivo simular um ambiente profissional, proporcionando aos membros da equipe uma experiência real no desenvolvimento de software, estimulando o trabalho colaborativo, o aprimoramento de soft skills e o crescimento técnico.</p>
 
-<p align="center">deploy: </p>
+<h2>Deploy: </h2>
+
 
 # Sumário
 
@@ -50,6 +51,8 @@ O SharpCoding Pay é um projeto de plataforma fintech que visa oferecer soluçõ
 
 # Etapas do Projeto
 
+Acompanhe nosso progresso e conheça um pouco do nosso desenvolvimento. Estamos ansiosos para colaborar e aprender juntos neste desafiador projeto fintech.
+
 ### Etapa 1: Desenvolvimento Inicial
 
 Durante esta fase, o projeto foi dividido em quatro sprints, cada uma com metas específicas. Acompanhamento e gerenciamento de tarefas foram realizados através da plataforma Notion.
@@ -70,48 +73,72 @@ Durante esta fase, o projeto foi dividido em quatro sprints, cada uma com metas 
 
 -
 
-Acompanhe nosso progresso e conheça um pouco do nosso desenvolvimento. Estamos ansiosos para colaborar e aprender juntos neste desafiador projeto fintech.
-
 # Autores
 
-❤️ Feito com carinho e dedicação por:❤️
+<h3> ❤️ Feito com carinho e dedicação por: </h3>
 
-<div ><img src="https://avatars.githubusercontent.com/u/105972020?v=4" width="100px;" alt=""/></div>
+<br><br>
 
-<div ><a href="https://github.com/nadiellymedeiros">Nadielly Xavier</a></div>
+<div ><img src="https://avatars.githubusercontent.com/u/105972020?v=4" style="border-radius:10px" width="100px;" alt=""/>
 
-<div ><a href="https://www.linkedin.com/in/nadielly-xavier-de-medeiros/"><img src="https://img.shields.io/badge/-Nadielly-blue?style=flat-square&logo=Linkedin&logoColor=white"/></a></div>
+<h3>Nadielly Xavier</h3>
 
-</br></br>
-
-<div ><img src="https://avatars.githubusercontent.com/u/83372957?v=4" width="100px;" alt=""/></div>
-
-<div ><a href="https://github.com/klaynmolina">Vanessa Molina</a></div>
-
-<div ><a href="https://www.linkedin.com/in/vanessakrmolina/"><img src="https://img.shields.io/badge/-Vanessa-blue?style=flat-square&logo=Linkedin&logoColor=white"/></a></div>
+[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=30A3DC)](https://github.com/nadiellymedeiros)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=30A3DC)](https://www.linkedin.com/in/nadielly-xavier-de-medeiros/)
+</div>
 
 </br></br>
 
-<div ><img src="https://avatars.githubusercontent.com/u/98059361?v=4" width="100px;" alt=""/></div>
+<div ><img src="https://avatars.githubusercontent.com/u/83372957?v=4" width="100px;" style="border-radius:10px" alt=""/></div>
 
-<div ><a href="https://github.com/TomSilvaSax">Antônio Santana</a></div>
+<h3>Vanessa Molina</h3>
 
-<div ><a href="https://www.linkedin.com/in/antonio-santana-0a052284/"><img src="https://img.shields.io/badge/-Antônio-blue?style=flat-square&logo=Linkedin&logoColor=white"/></a></div>
-
-</br></br>
-
-<div ><img src="https://avatars.githubusercontent.com/u/138252693?v=4" width="100px;" alt=""/></div>
-
-<div ><a href="https://github.com/AmandaSantos05">Amanda Santos</a></div>
-
-<div ><a href="https://www.linkedin.com/in/amanda-santos-52734726a/"><img src="https://img.shields.io/badge/-Amanda-blue?style=flat-square&logo=Linkedin&logoColor=white"/></a></div>
+[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=30A3DC)](https://github.com/klaynmolina)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=30A3DC)](https://www.linkedin.com/in/vanessakrmolina/)
 
 </br></br>
 
-<div ><img src="https://avatars.githubusercontent.com/u/130368133?v=4" width="100px;" alt=""/></div>
+<div ><img src="https://avatars.githubusercontent.com/u/98059361?v=4" style="border-radius:10px" width="100px;" alt=""/></div>
 
-<div ><a href="https://github.com/alanvargas04">Alan Vargas</a></div>
+<h3>Antônio Santana</h3>
 
-<div ><a href="https://www.linkedin.com/in/alan-vargas-37b09b297/"><img src="https://img.shields.io/badge/-Alan-blue?style=flat-square&logo=Linkedin&logoColor=white"/></a></div>
+[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=30A3DC)](https://github.com/TomSilvaSax)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=30A3DC)](https://www.linkedin.com/in/antonio-santana-0a052284/)
+
+</br></br>
+
+<div ><img src="https://avatars.githubusercontent.com/u/138252693?v=4" style="border-radius:10px" width="100px;" alt=""/></div>
+
+<h3>Amanda Santos</h3>
+
+[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=30A3DC)](https://github.com/AmandaSantos05)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=30A3DC)](https://www.linkedin.com/in/amanda-santos-52734726a/)
+
+</br></br>
+
+<div ><img src="https://avatars.githubusercontent.com/atilags" style="border-radius:10px" width="100px;" alt=""/></div>
+
+<h3>Átila Sobrinho</h3>
+
+[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=30A3DC)](https://github.com/atilags)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=30A3DC)](https://www.linkedin.com/in/atilasobrinho/)
+
+</br></br>
+
+<div ><img src="https://avatars.githubusercontent.com/DouglasCPedrosa" style="border-radius:10px" width="100px;" alt=""/></div>
+
+<h3>Douglas Coimbra</h3>
+
+[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=30A3DC)](https://github.com/DouglasCPedrosa)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=30A3DC)](https://www.linkedin.com/in/douglas-cooimbra/)
+
+</br></br>
+
+<div ><img src="https://avatars.githubusercontent.com/luan02" style="border-radius:10px" width="100px;" alt=""/></div>
+
+<h3>Luan Oliveira</h3>
+
+[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=30A3DC)](https://github.com/Luan02)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=30A3DC)](https://www.linkedin.com/in/luanoliveira98/)
 
 </br></br>
