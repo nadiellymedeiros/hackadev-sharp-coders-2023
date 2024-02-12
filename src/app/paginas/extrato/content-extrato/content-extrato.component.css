@@ -1,0 +1,9 @@
+/* Coloração para os textos em laranja */
+.laranja {
+    color: #F67816;
+}
+
+/* Coloração cinza para as janelas expansivas do extrato */
+.cinza {
+    background-color: #E6ECF2;
+}
