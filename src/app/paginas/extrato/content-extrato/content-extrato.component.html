@@ -1,4 +1,5 @@
-<div class="container vw-100 vh-100 bg-dark p-1">
+<!-- Div do corpo da pagina, deixando a coloração preta e ocupando a tela inteira -->
+<div class="container vw-100 vh-100 p-1 bg-black">
   <!-- Div responsavel pelos links "TODAS", "ENTRADAS" E "SAÍDAS" -->
   <div class="container align-items-center pb-1 pt-1">
     <div class="row bg-light p-3">
@@ -20,11 +21,139 @@
     </div>
   </div>
 
-  <div class="container pt-1 pb-1">
+  <!-- Button responsavel pelo abrir e fechar do extrato "HOJE" -->
+  <button
+    class="btn container pt-0 pb-1"
+    type="button"
+    data-bs-toggle="collapse"
+    data-bs-target="#expandir"
+    aria-expanded="false"
+    aria-controls="collapseExample"
+  >
     <div class="cinza p-3 laranja row">
-      <h5 class="col-6">HOJE</h5>
+      <h5 class="col-6 text-start">HOJE</h5>
       <h5 class="col-4 text-nowrap">Saldo do dia</h5>
       <h5 class="col-2 fw-bold">R$</h5>
     </div>
+  </button>
+
+  <!-- Div responsavel pelo conteudo do extrato "HOJE"-->
+  <!-- collapse -->
+  <div class="container py-2 px-4" id="expandir">
+    <div class="p-2 bg-light">
+      <div class="container text-secondary row">
+        <span class="">18:39</span>
+        <i class="bi bi-arrow-down-right text-success fs-6 col-1"></i>
+        <div class="container text-start col-8">
+          <p class="mb-0 laranja">Pix recebido</p>
+          <p class="mt-0">Fulano de Tau</p>
+        </div>
+
+        <div class="container laranja text-end col-3">
+          <b class="me-5">R$</b>
+          <p>
+            <a href="" class="btn laranja p-0">
+              <i class="bi bi-chevron-compact-right"></i>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="p-2 bg-light">
+      <div class="container text-secondary row">
+        <span class="">17:23</span>
+        <i class="bi bi-arrow-down-right text-success fs-6 col-1"></i>
+        <div class="container text-start col-8">
+          <p class="mb-0 laranja">Pix recebido</p>
+          <p class="mt-0">Fulano de Tau</p>
+        </div>
+
+        <div class="container laranja text-end col-3">
+          <b class="me-5">R$</b>
+          <p>
+            <a href="" class="btn laranja p-0">
+              <i class="bi bi-chevron-compact-right"></i>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="p-2 bg-light">
+      <div class="container text-secondary row">
+        <span class="">16:14</span>
+        <i class="bi bi-arrow-up-left text-danger fs-6 col-1"></i>
+        <div class="container text-start col-8">
+          <p class="mb-0 laranja">Pix enviado</p>
+          <p class="mt-0">Fulano de Tau</p>
+        </div>
+
+        <div class="container laranja text-end col-3">
+          <b class="me-5">R$</b>
+          <p>
+            <a href="" class="btn laranja p-0">
+              <i class="bi bi-chevron-compact-right"></i>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="p-2 bg-light">
+      <div class="container text-secondary row">
+        <span class="">12:19</span>
+        <i class="bi bi-arrow-down-right text-success fs-6 col-1"></i>
+        <div class="container text-start col-8">
+          <p class="mb-0 laranja">Pix recebido</p>
+          <p class="mt-0">Fulano de Tau</p>
+        </div>
+
+        <div class="container laranja text-end col-3">
+          <b class="me-5">R$</b>
+          <p>
+            <a href="" class="btn laranja p-0">
+              <i class="bi bi-chevron-compact-right"></i>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="p-2 bg-light">
+      <div class="container text-secondary row">
+        <span class="">10:43</span>
+        <i class="bi bi-arrow-up-left text-danger fs-6 col-1"></i>
+        <div class="container text-start col-8">
+          <p class="mb-0 laranja">Pix enviado</p>
+          <p class="mt-0">Fulano de Tau</p>
+        </div>
+
+        <div class="container laranja text-end col-3">
+          <b class="me-5">R$</b>
+          <p>
+            <a href="" class="btn laranja p-0">
+              <i class="bi bi-chevron-compact-right"></i>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
+
+  <!-- Botão para expandir da proxima data. Não fará nada no momento. -->
+  <button
+    class="btn container pt-0 pb-1"
+    type="button"
+    data-bs-toggle="collapse"
+    data-bs-target="#expandirDois"
+    aria-expanded="false"
+    aria-controls="collapseExample"
+  >
+    <div class="cinza p-3 laranja row">
+      <h5 class="col-6 text-start">10 FEV</h5>
+      <h5 class="col-4 text-nowrap">Saldo do dia</h5>
+      <h5 class="col-2 fw-bold">R$</h5>
+    </div>
+  </button>
 </div>
