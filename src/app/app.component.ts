@@ -1,14 +1,14 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
-import { LoginComponent } from "./paginas/login/login.component";
+import { ExtratoComponent } from './paginas/extrato/extrato.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
+  imports: [CommonModule, RouterOutlet, ExtratoComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
-  imports: [CommonModule, RouterOutlet, LoginComponent]
 })
 export class AppComponent {
   title = 'app-pay';
