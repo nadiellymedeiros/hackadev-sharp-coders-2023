@@ -1,3 +1,2 @@
-<app-mobile></app-mobile>
-
-<app-desktop></app-desktop>
+<app-mobile *ngIf="mobileQuery.matches"></app-mobile>
+<app-desktop *ngIf="!mobileQuery.matches"></app-desktop>
