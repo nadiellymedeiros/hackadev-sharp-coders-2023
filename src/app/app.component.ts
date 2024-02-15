@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Router, Router, RouterOutlet } from '@angular/router';
+import { Router, RouterOutlet } from '@angular/router';
 import { ExtratoComponent } from './paginas/extrato/extrato.component';
 
 @Component({
@@ -23,14 +23,4 @@ export class AppComponent {
         this.router.navigateByUrl('/extrato');
     }
     
-
-  constructor(private router:Router){}
-
-    goHome (): void { 
-        this.router.navigateByUrl('/home');
-    }
-
-    goExtrato (): void { 
-        this.router.navigateByUrl('/extrato');
-    }
 }
