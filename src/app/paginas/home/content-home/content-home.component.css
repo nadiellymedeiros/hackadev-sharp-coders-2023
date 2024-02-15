@@ -8,9 +8,6 @@ a {
     padding-top: 5%;
 }
 
-.primeira-fileira {
-}
-
 .container-pai {
     margin: 3%;     
 }
@@ -24,6 +21,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30%;
 }
 
 .container-filho  h6 {
@@ -35,3 +33,30 @@ a {
 .container-filho  img {
     width: 60px;
 }
+
+.title-pc {
+    display: none;
+}
+
+/* Notebook */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .title-mobile {
+        display: none;
+    }
+
+}
+  
+  /* Desktop */
+@media screen and (min-width: 1200px) {
+    .title-mobile {
+        display: none;
+    }
+    .title-pc {
+        display: block;
+    }
+    .container-filho {
+        width: 250px;
+        margin-bottom: 0;
+    }
+}
+  
