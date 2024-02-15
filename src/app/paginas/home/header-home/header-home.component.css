@@ -1,9 +1,14 @@
+button {
+    cursor: pointer;
+}
+
 .header-home {
     margin: 0 !important;
     width: auto;
     height: auto;
     padding: 2%;
     color: #F67816;
+    border: solid 5px black;
 }
 
 .header-home i {
@@ -28,8 +33,7 @@
     background-color: #FFF;
     padding: 3% 5%;
     margin: 3%;
-    border-radius: 20px;
-    
+    border-radius: 20px;    
 }
 
 .saldo i {
@@ -52,6 +56,58 @@
 
 .saldo h6 {
     background-color: #D9D9D9;
-    padding: 2%;
+    width: 80px;
+    height: 20px;
     border-radius: 50px;
+    color: #F67816;
+}
+
+.extrato button {
+    width: 85vw;
+    background-color: #F67816;
+    color: #D9D9D9;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.5rem;
+    margin-top: 5%;
+}
+
+/* .desktop-hide {
+    display: none;
+} */
+
+/* Notebook */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+}
+  
+  /* Desktop */
+@media screen and (min-width: 1200px) {
+
+    .logo img {
+        width: 5vw;
+    }
+
+    .saldo {
+        flex-direction: column;
+    }
+
+    .formato {
+        width: 25vw;
+        height: 20vh;
+        padding: 2%;
+        margin-bottom: 1%;
+    }
+
+    .saldo {
+        margin-right: 9%;
+    }
+
+    .desktop {
+        flex-direction: row !important; 
+    }
+
+    .extrato button {
+        width: 30vw;
+    }
 }
