@@ -4,6 +4,7 @@
     height: auto;
     padding: 2%;
     color: #F67816;
+    border: solid 5px black;
 }
 
 .header-home i {
