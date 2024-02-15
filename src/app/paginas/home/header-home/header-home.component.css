@@ -1,0 +1,57 @@
+.header-home {
+    margin: 0 !important;
+    width: auto;
+    height: auto;
+    padding: 2%;
+    color: #F67816;
+}
+
+.header-home i {
+    font-size: 3rem;
+    color: #F67816;
+}
+
+.header-home h3 {
+    color: #F67816;
+    font-weight: 400;
+}
+
+.logo img {
+    width: 12vw;
+}
+
+.bi-house{
+    margin-right: 15px;
+}
+
+.formato {
+    background-color: #FFF;
+    padding: 3% 5%;
+    margin: 3%;
+    border-radius: 20px;
+    
+}
+
+.saldo i {
+    font-size: 2rem;
+}
+
+.saldo button {
+    border: none;
+    background: none;
+}
+
+.vendas {
+    padding: 5%;
+}
+
+.saldo h4 {
+    font-weight: 7+
+    00;
+}
+
+.saldo h6 {
+    background-color: #D9D9D9;
+    padding: 2%;
+    border-radius: 50px;
+}
