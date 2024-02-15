@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterOutlet } from '@angular/router';
+import { Router, RouterOutlet } from '@angular/router';
 import { ExtratoComponent } from './paginas/extrato/extrato.component';
 import { LoginComponent } from "./paginas/login/login.component";
 
@@ -13,4 +13,18 @@ import { LoginComponent } from "./paginas/login/login.component";
 })
 export class AppComponent {
   title = 'app-pay';
+
+  constructor(private router:Router){}
+
+    homeRouter (): void { 
+        this.router.navigateByUrl('/home');
+    }
+
+    extrato (): void { 
+        this.router.navigateByUrl('/extrato');
+    }
+
+    poupanca (): void { 
+        this.router.navigateByUrl('/poupanca');
+    }
 }
