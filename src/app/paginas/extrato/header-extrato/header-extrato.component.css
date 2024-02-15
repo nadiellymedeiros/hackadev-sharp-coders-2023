@@ -1,0 +1,80 @@
+:root{
+    --laranja: #FE6F25;
+    --preto: #000000;
+    --branco: #FCFDFD;
+  }
+ .extrato{
+  background: #000000;
+  font-family: poppins, sans-serif;
+  }
+  h1,h2,h3,h4,h5,h6,p{
+    font-family: Poppins, sans-serif;
+  }
+  .navbar-brand{
+    font-family: Poppins, sans-serif;
+    color:#FE6F25;
+  }
+  .navbar{
+    background: #000000;
+    margin: 20px 0px 0px 10px;
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+  }
+  .botaoextrato{
+    display: flex;
+    justify-content: space-between;
+    background: var(--branco);
+    padding: 10px 20px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    align-items: center;
+    color: #FE6F25;
+  }
+  .botaoextrato button{
+    color: #FCFDFD;
+    background: transparent;
+    border: none;
+  }
+  .botaoextrato i{
+    font-size: 30px;
+  }
+  .botaoextrato h3{
+    font-size: 20px;
+  }
+  .btextrato{
+    width: 20px;
+    height: 40px;
+    border-radius: 15px;
+    background: #000000;
+    border: 2px solid red;
+  }
+  .bttransacao{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    justify-content: center;
+  }
+  .bttransacao button {
+    display: flex;
+    align-items:last baseline; /* Alinha os itens verticalmente ao centro */
+    background-color: #FE6F25;
+    color: #FCFDFD;
+    margin: 10px;
+    border-radius: 5px;
+ 
+    /* Ajuste do botão e da fonte */
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+ 
+  .bttransacao button i {
+    margin-right: 10px; /* Adiciona um espaçamento entre o ícone e o texto */
+    color: #FCFDFD;
+  }
+ 
+  .menu-icone{
+    color:#FE6F25;
+    font-size: 20px;
+    padding-left: 5px;
+  }
