@@ -12,18 +12,4 @@ import { ExtratoComponent } from './paginas/extrato/extrato.component';
 })
 export class AppComponent {
   title = 'app-pay';
-
-  constructor(private router:Router){}
-
-    homeRouter (): void { 
-        this.router.navigateByUrl('/home');
-    }
-
-    extrato (): void { 
-        this.router.navigateByUrl('/extrato');
-    }
-
-    poupanca (): void { 
-        this.router.navigateByUrl('/poupanca');
-    }
 }
