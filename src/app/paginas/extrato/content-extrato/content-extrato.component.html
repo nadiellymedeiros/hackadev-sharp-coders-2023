@@ -243,10 +243,36 @@
 
     <div class="container-lg bg-light div-filtro my-4 px-5 py-4">
       <h1>Filtro</h1>
+
+      <div class="d-flex row">
+        <div class="dropdown col-3 text-nowrap">
+          <button
+            class="btn dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <p class="letraPequena text-start mb-0">Período</p>
+            <p>Selecione o período</p>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Hoje</a></li>
+            <li><a class="dropdown-item" href="#">3 últimos dias</a></li>
+            <li><a class="dropdown-item" href="#">5 últimos dias</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
 
     <div class="container-lg bg-light div-filtro mt-4 px-5 py-4">
-      <h1>Transações</h1>
+      <h1 class="">Transações</h1>
+      <div
+        class="container-lg d-flex flex-column align-items-center justify-content-center i-color"
+      >
+        <i class="bi bi-info-circle-fill infoIcon"></i>
+
+        <p>Não há lançamentos no periodo definido.</p>
+      </div>
     </div>
   </div>
 </div>
