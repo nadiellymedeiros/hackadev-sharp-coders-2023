@@ -1,7 +1,8 @@
 <!-- Div do corpo da pagina, deixando a coloração preta e ocupando a tela inteira -->
-<div class="container vw-100 vh-100 p-1 bg-black">
+<div class="container-md vw-100 vh-100 p-1 bg-black hide-mobile">
+  <!-- Mobile -->
   <!-- Div responsavel pelos links "TODAS", "ENTRADAS" E "SAÍDAS" -->
-  <div class="container align-items-center pb-1 pt-1">
+  <div class="container-md align-items-center pb-1 pt-1">
     <div class="row bg-light p-3">
       <a
         href="extrato"
@@ -23,7 +24,7 @@
 
   <!-- Button responsavel pelo abrir e fechar do extrato "HOJE" -->
   <button
-    class="btn container pt-0 pb-1"
+    class="btn container-md pt-0 pb-1"
     type="button"
     data-bs-toggle="collapse"
     data-bs-target="#expandir"
@@ -38,8 +39,7 @@
   </button>
 
   <!-- Div responsavel pelo conteudo do extrato "HOJE"-->
-  <!-- collapse -->
-  <div class="container py-2 px-4" id="expandir">
+  <div class="container-md py-2 px-4 collapse" id="expandir">
     <div class="p-2 bg-light">
       <div class="container text-secondary row">
         <span class="">18:39</span>
@@ -143,7 +143,7 @@
 
   <!-- Botão para expandir da proxima data. Não fará nada no momento. -->
   <button
-    class="btn container pt-0 pb-1"
+    class="btn container-md pt-0 pb-1"
     type="button"
     data-bs-toggle="collapse"
     data-bs-target="#expandirDois"
@@ -156,4 +156,20 @@
       <h5 class="col-2 fw-bold">R$</h5>
     </div>
   </button>
+</div>
+
+<!-- Desktop -->
+<div class="container-lg fundo-Desktop vw-100 vh-100 hide-Desktop p-3">
+  <div class="corDesktop px-4 py-2">
+    <h1 class="text-light">Extrato de Transações</h1>
+    <span class="text-light">Última atualização em {{ dataAtual() }}</span>
+
+    <div class="container-lg bg-light div-filtro my-4 px-5 py-4">
+      <h1>Filtro</h1>
+    </div>
+
+    <div class="container-lg bg-light div-filtro mt-4 px-5 py-4">
+      <h1>Transações</h1>
+    </div>
+  </div>
 </div>
