@@ -11,7 +11,7 @@ import { Router, RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'app-pay';
-
+  
   constructor(private router: Router) {}
 
   goToHome(): void {
