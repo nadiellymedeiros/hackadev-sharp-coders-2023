@@ -6,6 +6,7 @@ import { FooterMobileComponent } from "../../componentes/footer/footer-mobile/fo
 import { FooterDesktopComponent } from "../../componentes/footer/footer-desktop/footer-desktop.component";
 
 import { Router } from '@angular/router';
+import { FooterComponent } from '../../componentes/footer/footer.component';
 
 @Component({
     selector: 'app-home',
