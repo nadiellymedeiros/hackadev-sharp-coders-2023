@@ -9,8 +9,5 @@ import { RouterModule } from '@angular/router';
   styleUrl: './header-home.component.css'
 })
 export class HeaderHomeComponent {
-goHome() {
-throw new Error('Method not implemented.');
-}
 
 }
