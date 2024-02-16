@@ -2,18 +2,16 @@ import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormControl, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
+import { FooterDesktopComponent } from "../../../componentes/footer/footer-desktop/footer-desktop.component";
 
 
 
 @Component({
-  selector: 'app-desktop',
-  standalone: true,
-
-  imports: [CommonModule, FormsModule, ReactiveFormsModule],
-
-
-  templateUrl: './desktop.component.html',
-  styleUrl: './desktop.component.css'
+    selector: 'app-desktop',
+    standalone: true,
+    templateUrl: './desktop.component.html',
+    styleUrl: './desktop.component.css',
+    imports: [CommonModule, FormsModule, ReactiveFormsModule, FooterDesktopComponent]
 })
 export class DesktopComponent {
   @Input()
