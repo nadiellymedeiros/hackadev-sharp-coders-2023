@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ContentHomeComponent } from "./content-home/content-home.component";
 import { HeaderHomeComponent } from "./header-home/header-home.component";
+import { Router } from '@angular/router';
 
 @Component({
     selector: 'app-home',
