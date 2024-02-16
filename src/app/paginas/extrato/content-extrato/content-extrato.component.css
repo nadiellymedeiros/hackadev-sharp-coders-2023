@@ -11,6 +11,7 @@
         background-color: #E6ECF2;
     }
 
+<<<<<<< HEAD
     .noventa {
         width: 90%;
     }
@@ -21,6 +22,8 @@
         align-items: center;
     }
 
+=======
+>>>>>>> 11a61d1 (Feature108: Adicionado responsividade para a parte mobile do extrato. Iniciado criação da parte desktop do extrato, foi inserido as partes basicas, como filtro, transações e horario em tempo real.)
     .hide-Desktop {
         display: none;
     }
@@ -40,6 +43,7 @@
         background-color: #333333;
     }
 
+<<<<<<< HEAD
     .div-filtro {
         width: 90%;
     }
@@ -52,4 +56,9 @@
     .letraPequena {
         font-size: 0.7em;
     }
+=======
+    .div-filtro{
+        width: 90%;
+    }
+>>>>>>> 11a61d1 (Feature108: Adicionado responsividade para a parte mobile do extrato. Iniciado criação da parte desktop do extrato, foi inserido as partes basicas, como filtro, transações e horario em tempo real.)
 }

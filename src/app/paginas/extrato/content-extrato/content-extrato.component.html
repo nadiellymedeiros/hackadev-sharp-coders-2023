@@ -1,8 +1,15 @@
 <!-- Div do corpo da pagina, deixando a coloração preta e ocupando a tela inteira -->
+<<<<<<< HEAD
 <!-- Mobile -->
 <div class="container-fluid w-100 h-100 p-1 bg-black hide-mobile">
   <!-- Div responsavel pelos links "TODAS", "ENTRADAS" E "SAÍDAS" -->
   <div class="container-fluid pb-1 pt-1 noventa">
+=======
+<div class="container-md vw-100 vh-100 p-1 bg-black hide-mobile">
+  <!-- Mobile -->
+  <!-- Div responsavel pelos links "TODAS", "ENTRADAS" E "SAÍDAS" -->
+  <div class="container-md align-items-center pb-1 pt-1">
+>>>>>>> 11a61d1 (Feature108: Adicionado responsividade para a parte mobile do extrato. Iniciado criação da parte desktop do extrato, foi inserido as partes basicas, como filtro, transações e horario em tempo real.)
     <div class="row bg-light p-3">
       <a
         href="extrato"
@@ -23,8 +30,13 @@
   </div>
 
   <!-- Button responsavel pelo abrir e fechar do extrato "HOJE" -->
+<<<<<<< HEAD
   <div
     class="container-fluid pt-0 pb-1 noventa"
+=======
+  <button
+    class="btn container-md pt-0 pb-1"
+>>>>>>> 11a61d1 (Feature108: Adicionado responsividade para a parte mobile do extrato. Iniciado criação da parte desktop do extrato, foi inserido as partes basicas, como filtro, transações e horario em tempo real.)
     type="button"
     data-bs-toggle="collapse"
     data-bs-target="#expandir"
@@ -39,8 +51,12 @@
   </div>
 
   <!-- Div responsavel pelo conteudo do extrato "HOJE"-->
+<<<<<<< HEAD
   <!-- collapse -->
   <div class="container-fluid py-2 px-4 w-100" id="expandir">
+=======
+  <div class="container-md py-2 px-4 collapse" id="expandir">
+>>>>>>> 11a61d1 (Feature108: Adicionado responsividade para a parte mobile do extrato. Iniciado criação da parte desktop do extrato, foi inserido as partes basicas, como filtro, transações e horario em tempo real.)
     <div class="p-2 bg-light">
       <div class="container-fluid text-secondary row">
         <span class="">18:39</span>
@@ -143,8 +159,13 @@
   </div>
 
   <!-- Botão para expandir da proxima data. Não fará nada no momento. -->
+<<<<<<< HEAD
   <div
     class="container-fluid pt-0 pb-1 noventa"
+=======
+  <button
+    class="btn container-md pt-0 pb-1"
+>>>>>>> 11a61d1 (Feature108: Adicionado responsividade para a parte mobile do extrato. Iniciado criação da parte desktop do extrato, foi inserido as partes basicas, como filtro, transações e horario em tempo real.)
     type="button"
     data-bs-toggle="collapse"
     data-bs-target="#expandirDois"
@@ -197,6 +218,22 @@
 
         <p>Não há lançamentos no periodo definido.</p>
       </div>
+    </div>
+  </div>
+</div>
+
+<!-- Desktop -->
+<div class="container-lg fundo-Desktop vw-100 vh-100 hide-Desktop p-3">
+  <div class="corDesktop px-4 py-2">
+    <h1 class="text-light">Extrato de Transações</h1>
+    <span class="text-light">Última atualização em {{ dataAtual() }}</span>
+
+    <div class="container-lg bg-light div-filtro my-4 px-5 py-4">
+      <h1>Filtro</h1>
+    </div>
+
+    <div class="container-lg bg-light div-filtro mt-4 px-5 py-4">
+      <h1>Transações</h1>
     </div>
   </div>
 </div>
