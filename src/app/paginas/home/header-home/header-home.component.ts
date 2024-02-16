@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RouterModule } from '@angular/router';
+import { Router, RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-header-home',
@@ -9,8 +9,15 @@ import { RouterModule } from '@angular/router';
   styleUrl: './header-home.component.css'
 })
 export class HeaderHomeComponent {
-goHome() {
-throw new Error('Method not implemented.');
-}
 
+  constructor(private router: Router) {}
+
+  goToHome(): void {
+    this.router.navigateByUrl('/home');
+  }
+
+  goToExtrato(): void {
+    this.router.navigateByUrl('/extrato');
+  }
+  
 }
