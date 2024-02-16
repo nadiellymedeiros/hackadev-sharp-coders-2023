@@ -1,9 +1,55 @@
-/* Coloração para os textos em laranja */
-.laranja {
-    color: #F67816;
+/* Mobile */
+@media screen and (max-width: 767px) {
+
+    /* Coloração para os textos em laranja */
+    .laranja {
+        color: #F67816;
+    }
+
+    /* Coloração cinza para as janelas expansivas do extrato */
+    .cinza {
+        background-color: #E6ECF2;
+    }
+
+    .noventa {
+        width: 90%;
+    }
+
+    .centraliza {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hide-Desktop {
+        display: none;
+    }
 }
 
-/* Coloração cinza para as janelas expansivas do extrato */
-.cinza {
-    background-color: #E6ECF2;
+/* Desktop */
+@media screen and (min-width: 768px) {
+    .hide-mobile {
+        display: none;
+    }
+
+    .fundo-Desktop {
+        background-color: #101010;
+    }
+
+    .corDesktop {
+        background-color: #333333;
+    }
+
+    .div-filtro {
+        width: 90%;
+    }
+
+    .infoIcon {
+        color: #1082BE;
+        font-size: 5em;
+    }
+
+    .letraPequena {
+        font-size: 0.7em;
+    }
 }
