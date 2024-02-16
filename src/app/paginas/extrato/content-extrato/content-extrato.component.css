@@ -1,3 +1,7 @@
+.noventa {
+    width: 90%;
+}
+
 /* Mobile */
 @media screen and (max-width: 767px) {
 
@@ -9,10 +13,6 @@
     /* Coloração cinza para as janelas expansivas do extrato */
     .cinza {
         background-color: #E6ECF2;
-    }
-
-    .noventa {
-        width: 90%;
     }
 
     .centraliza {
@@ -32,16 +32,8 @@
         display: none;
     }
 
-    .fundo-Desktop {
-        background-color: #101010;
-    }
-
     .corDesktop {
         background-color: #333333;
-    }
-
-    .div-filtro {
-        width: 90%;
     }
 
     .infoIcon {
