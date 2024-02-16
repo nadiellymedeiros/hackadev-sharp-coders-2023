@@ -1,29 +1,25 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Router, RouterOutlet } from '@angular/router';
-import { ExtratoComponent } from './paginas/extrato/extrato.component';
 
 @Component({
-    selector: 'app-root',
-    standalone: true,
-    templateUrl: './app.component.html',
-    styleUrl: './app.component.css',
-    imports: [CommonModule, RouterOutlet, ExtratoComponent]
+  selector: 'app-root',
+  standalone: true,
+  templateUrl: './app.component.html',
+  styleUrl: './app.component.css',
+  imports: [CommonModule, RouterOutlet],
 })
 export class AppComponent {
   title = 'app-pay';
 
-  constructor(private router:Router){}
+  constructor(private router: Router) {}
 
-    homeRouter (): void { 
-        this.router.navigateByUrl('/home');
-    }
+  goHome(): void {
+    this.router.navigateByUrl('/home');
+  }
 
-    extrato (): void { 
-        this.router.navigateByUrl('/extrato');
-    }
-
-    poupanca (): void { 
-        this.router.navigateByUrl('/poupanca');
-    }
+  goExtrato(): void {
+    this.router.navigateByUrl('/extrato');
+  }
+  
 }
