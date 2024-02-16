@@ -53,4 +53,33 @@
     .letraPequena {
         font-size: 0.7em;
     }
+
+    .div-filtro{
+        width: 90%;
+    }
+
+    .div-filtro {
+        width: 90%;
+    }
+
+    /* .infoIcon {
+        color: #1082BE;
+        font-size: 5em;
+    } */
+
+    .i-color {
+        width: 0px;
+        height: 60px;
+        background-color: #1082BE;
+    }
+
+    .infoIcon {
+        font-size: 5em;
+        color: #D9D9D9;
+    }
+
+    .letraPequena {
+        font-size: 0.7em;
+    }
+
 }

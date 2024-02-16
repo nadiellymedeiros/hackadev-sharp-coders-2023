@@ -42,13 +42,16 @@
   <div class="container-fluid px-0 pb-1 noventa collapse" id="expandir">
     <div class="p-2 bg-light">
       <div class="container-fluid text-secondary row">
+      <div class="container-fluid text-secondary row">
         <span class="">18:39</span>
         <i class="bi bi-arrow-down-right text-success fs-6 col-1"></i>
+        <div class="container-fluid text-start col-8">
         <div class="container-fluid text-start col-8">
           <p class="mb-0 laranja">Pix recebido</p>
           <p class="mt-0">Fulano de Tau</p>
         </div>
 
+        <div class="container-fluid laranja text-end col-3">
         <div class="container-fluid laranja text-end col-3">
           <b class="me-5">R$</b>
           <p>
@@ -62,13 +65,16 @@
 
     <div class="p-2 bg-light">
       <div class="container-fluid text-secondary row">
+      <div class="container-fluid text-secondary row">
         <span class="">17:23</span>
         <i class="bi bi-arrow-down-right text-success fs-6 col-1"></i>
+        <div class="container-fluid text-start col-8">
         <div class="container-fluid text-start col-8">
           <p class="mb-0 laranja">Pix recebido</p>
           <p class="mt-0">Fulano de Tau</p>
         </div>
 
+        <div class="container-fluid laranja text-end col-3">
         <div class="container-fluid laranja text-end col-3">
           <b class="me-5">R$</b>
           <p>
@@ -81,6 +87,7 @@
     </div>
 
     <div class="p-2 bg-light">
+      <div class="container-fluid text-secondary row">
       <div class="container-fluid text-secondary row">
         <span class="">16:14</span>
         <i class="bi bi-arrow-up-left text-danger fs-6 col-1"></i>
@@ -90,25 +97,6 @@
         </div>
 
         <div class="container-fluid laranja text-end col-3">
-          <b class="me-5">R$</b>
-          <p>
-            <a href="" class="btn laranja p-0">
-              <i class="bi bi-chevron-compact-right"></i>
-            </a>
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="p-2 bg-light">
-      <div class="container-fluid text-secondary row">
-        <span class="">12:19</span>
-        <i class="bi bi-arrow-down-right text-success fs-6 col-1"></i>
-        <div class="container text-start col-8">
-          <p class="mb-0 laranja">Pix recebido</p>
-          <p class="mt-0">Fulano de Tau</p>
-        </div>
-
         <div class="container-fluid laranja text-end col-3">
           <b class="me-5">R$</b>
           <p>
@@ -122,13 +110,38 @@
 
     <div class="p-2 bg-light">
       <div class="container-fluid text-secondary row">
+      <div class="container-fluid text-secondary row">
+        <span class="">12:19</span>
+        <i class="bi bi-arrow-down-right text-success fs-6 col-1"></i>
+        <div class="container text-start col-8">
+          <p class="mb-0 laranja">Pix recebido</p>
+          <p class="mt-0">Fulano de Tau</p>
+        </div>
+
+        <div class="container-fluid laranja text-end col-3">
+        <div class="container-fluid laranja text-end col-3">
+          <b class="me-5">R$</b>
+          <p>
+            <a href="" class="btn laranja p-0">
+              <i class="bi bi-chevron-compact-right"></i>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="p-2 bg-light">
+      <div class="container-fluid text-secondary row">
+      <div class="container-fluid text-secondary row">
         <span class="">10:43</span>
         <i class="bi bi-arrow-up-left text-danger fs-6 col-1"></i>
+        <div class="container-fluid text-start col-8">
         <div class="container-fluid text-start col-8">
           <p class="mb-0 laranja">Pix enviado</p>
           <p class="mt-0">Fulano de Tau</p>
         </div>
 
+        <div class="container-fluid laranja text-end col-3">
         <div class="container-fluid laranja text-end col-3">
           <b class="me-5">R$</b>
           <p>
@@ -191,6 +204,48 @@
       <h1 class="">Transações</h1>
       <div
         class="container-fluid d-flex flex-column align-items-center justify-content-center i-color"
+      >
+        <i class="bi bi-info-circle-fill infoIcon"></i>
+
+        <p>Não há lançamentos no periodo definido.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Desktop -->
+<div class="container-lg fundo-Desktop vw-100 vh-100 hide-Desktop p-3">
+  <div class="corDesktop px-4 py-2">
+    <h1 class="text-light">Extrato de Transações</h1>
+    <span class="text-light">Última atualização em {{ dataAtual() }}</span>
+
+    <div class="container-lg bg-light div-filtro my-4 px-5 py-4">
+      <h1>Filtro</h1>
+
+      <div class="d-flex row">
+        <div class="dropdown col-3 text-nowrap">
+          <button
+            class="btn dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <p class="letraPequena text-start mb-0">Período</p>
+            <p>Selecione o período</p>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Hoje</a></li>
+            <li><a class="dropdown-item" href="#">3 últimos dias</a></li>
+            <li><a class="dropdown-item" href="#">5 últimos dias</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-lg bg-light div-filtro mt-4 px-5 py-4">
+      <h1 class="">Transações</h1>
+      <div
+        class="container-lg d-flex flex-column align-items-center justify-content-center i-color"
       >
         <i class="bi bi-info-circle-fill infoIcon"></i>
 
