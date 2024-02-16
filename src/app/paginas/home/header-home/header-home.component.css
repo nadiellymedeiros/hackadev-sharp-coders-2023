@@ -7,19 +7,19 @@ button {
 .navbar-brand {
     font-family: Poppins, sans-serif;
     color: #fe6f25;
-  }
-  
-  .navbar {
+}
+
+.navbar {
     background: #000000;
     width: 100%;
     display: flex;
     justify-content: space-around;
-  }
-  
-  .container-fluid {
+}
+
+.container-fluid {
     width: 50%;
     margin: 0;
-  }
+}
 
 .header-home {
     margin: 0 !important;
@@ -44,7 +44,7 @@ button {
     width: 12vw;
 }
 
-.bi-house{
+.bi-house {
     margin-right: 15px;
 }
 
@@ -52,7 +52,7 @@ button {
     background-color: #FFF;
     padding: 3% 5%;
     margin: 3%;
-    border-radius: 20px;    
+    border-radius: 20px;
 }
 
 .saldo i {
@@ -69,8 +69,7 @@ button {
 }
 
 .saldo h4 {
-    font-weight: 7+
-    00;
+    font-weight: 7+ 00;
 }
 
 .saldo h6 {
@@ -96,11 +95,9 @@ button {
 } */
 
 /* Notebook */
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {}
 
-}
-  
-  /* Desktop */
+/* Desktop */
 @media screen and (min-width: 1200px) {
 
     .logo img {
@@ -123,7 +120,7 @@ button {
     }
 
     .desktop {
-        flex-direction: row !important; 
+        flex-direction: row !important;
     }
 
     .extrato button {
