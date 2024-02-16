@@ -21,9 +21,5 @@ export class AppComponent {
   goExtrato(): void {
     this.router.navigateByUrl('/extrato');
   }
-
-  //Ainda não implementado
-  goPoupanca(): void {
-    this.router.navigateByUrl('/poupanca');
-  }
+  
 }
