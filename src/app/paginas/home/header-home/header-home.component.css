@@ -4,6 +4,23 @@ button {
     border: none;
 }
 
+.navbar-brand {
+    font-family: Poppins, sans-serif;
+    color: #fe6f25;
+  }
+  
+  .navbar {
+    background: #000000;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .container-fluid {
+    width: 50%;
+    margin: 0;
+  }
+
 .header-home {
     margin: 0 !important;
     width: auto;
