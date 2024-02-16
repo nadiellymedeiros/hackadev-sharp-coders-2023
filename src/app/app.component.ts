@@ -14,11 +14,11 @@ export class AppComponent {
 
   constructor(private router: Router) {}
 
-  goHome(): void {
+  goToHome(): void {
     this.router.navigateByUrl('/home');
   }
 
-  goExtrato(): void {
+  goToExtrato(): void {
     this.router.navigateByUrl('/extrato');
   }
 }
