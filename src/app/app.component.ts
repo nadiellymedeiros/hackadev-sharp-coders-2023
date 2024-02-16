@@ -21,5 +21,4 @@ export class AppComponent {
   goExtrato(): void {
     this.router.navigateByUrl('/extrato');
   }
-  
 }
