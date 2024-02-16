@@ -10,5 +10,5 @@ import { Router, RouterOutlet } from '@angular/router';
   imports: [CommonModule, RouterOutlet],
 })
 export class AppComponent {
-  title = 'app-pay';
+  title = 'app-pay'; 
 }
