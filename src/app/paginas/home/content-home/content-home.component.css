@@ -2,6 +2,11 @@ a {
     text-decoration: none;
 }
 
+button {
+    border: none;
+    background: none;
+}
+
 .home-content {
     width: auto;
     height: auto;
