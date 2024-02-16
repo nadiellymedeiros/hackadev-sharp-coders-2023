@@ -7,6 +7,11 @@
 }
 
 .footer-menu {
+  padding: 10px;
+  display: none;
+}
+
+.footer-menu {
   width: 90%;
   height: 5rem;
   display: flex;
@@ -32,16 +37,15 @@
 }
 
 @media (max-width: 550px) {
-  .footerMobile {
-    padding: 10px;
+  .footer-mobile {
+    padding: 20px;
     display: block !important;
   }
 }
 
-/* 
 @media screen and (max-width: 600px) {
   * {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
 
   .footer-menu {
@@ -71,4 +75,4 @@
   * {
     font-size: 1.7rem;
   }
-} */
+}
