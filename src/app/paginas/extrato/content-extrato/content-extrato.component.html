@@ -3,7 +3,7 @@
 <div class="container-fluid w-100 h-100 p-1 bg-black hide-mobile">
   <!-- Div responsavel pelos links "TODAS", "ENTRADAS" E "SAÍDAS" -->
   <div class="container-fluid pb-1 pt-1 noventa">
-    <div class="row bg-light p-3">
+    <div class="row bg-light py-2">
       <a
         href="extrato"
         class="col link-underline link-underline-opacity-0 text-center laranja fs-5 fw-bold"
@@ -32,15 +32,14 @@
     aria-controls="collapseExample"
   >
     <div class="cinza p-3 laranja row">
-      <h5 class="col-6 text-start">HOJE</h5>
-      <h5 class="col-4 text-nowrap">Saldo do dia</h5>
+      <h5 class="col-5 text-start">HOJE</h5>
+      <h5 class="col-5 text-nowrap">Saldo do dia</h5>
       <h5 class="col-2 fw-bold">R$</h5>
     </div>
   </div>
 
   <!-- Div responsavel pelo conteudo do extrato "HOJE"-->
-  <!-- collapse -->
-  <div class="container-fluid py-2 px-4 w-100" id="expandir">
+  <div class="container-fluid p-0 pb-1 noventa collapse" id="expandir">
     <div class="p-2 bg-light">
       <div class="container-fluid text-secondary row">
         <span class="">18:39</span>
@@ -152,20 +151,21 @@
     aria-controls="collapseExample"
   >
     <div class="cinza p-3 laranja row">
-      <h5 class="col-6 text-start">10 FEV</h5>
-      <h5 class="col-4 text-nowrap">Saldo do dia</h5>
+      <h5 class="col-5 text-start">10 FEV</h5>
+      <h5 class="col-5 text-nowrap">Saldo do dia</h5>
       <h5 class="col-2 fw-bold">R$</h5>
     </div>
   </div>
 </div>
 
 <!-- Desktop -->
-<div class="container-lg fundo-Desktop vw-100 vh-100 hide-Desktop p-3">
+<div class="container-fluid bg-black w-100 h-100 hide-Desktop p-3">
   <div class="corDesktop px-4 py-2">
     <h1 class="text-light">Extrato de Transações</h1>
     <span class="text-light">Última atualização em {{ dataAtual() }}</span>
 
-    <div class="container-lg bg-light div-filtro my-4 px-5 py-4">
+    <!-- Div responsavel pelo Filtro de pesquisas -->
+    <div class="container-fluid bg-light noventa my-4 px-5 py-4">
       <h1>Filtro</h1>
 
       <div class="d-flex row">
@@ -177,21 +177,23 @@
             aria-expanded="false"
           >
             <p class="letraPequena text-start mb-0">Período</p>
-            <p>Selecione o período</p>
+            Selecione o período
           </button>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Hoje</a></li>
-            <li><a class="dropdown-item" href="#">3 últimos dias</a></li>
+            <li><a class="dropdown-item" href="#">2 últimos dias</a></li>
             <li><a class="dropdown-item" href="#">5 últimos dias</a></li>
+            <li><a class="dropdown-item" href="#">30 últimos dias</a></li>
           </ul>
         </div>
       </div>
     </div>
 
-    <div class="container-lg bg-light div-filtro mt-4 px-5 py-4">
-      <h1 class="">Transações</h1>
+    <!-- Div responsavel pelo extrato, após ser filtrado. -->
+    <div class="container-fluid bg-light noventa mt-4 px-5 py-4">
+      <h1>Transações</h1>
       <div
-        class="container-lg d-flex flex-column align-items-center justify-content-center i-color"
+        class="container-fluid d-flex flex-column align-items-center justify-content-center"
       >
         <i class="bi bi-info-circle-fill infoIcon"></i>
 
