@@ -1,0 +1,5 @@
+@media (max-width: 550px) {
+  .nav-desktop {
+    display: none;
+  }
+}
