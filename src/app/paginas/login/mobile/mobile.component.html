@@ -11,20 +11,22 @@
         </div>
     </div>
 
+    <form [formGroup]="form" (submit)="autentication()">
     <div class="inputs">
         <h4 class="texto2">Login to your account</h4>
         <div class="form-floating mb-3 ">
-            <input type="email" class="form-control" id="floatingInput" placeholder="User Id">
+            <input type="email" formControlName="userId"  id="userId" class="form-control" id="floatingInput" placeholder="User Id">
             <label for="floatingInput">User Id</label>
         </div>
         <div class="form-floating mb-3 input">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <input type="password" formControlName="password" id="password" class="form-control" id="floatingPassword" placeholder="Password">
             <i id="togglePassword" class="bi bi-eye-slash" (click)="togglePassword()"></i>
             <label for="floatingPassword">Password</label>
         </div>
     </div>
 
     <div class="button d-grid gap-2 d-md-flex justify-content-md-end">
-        <button class="btn btn-lg " style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem;">LOGIN</button>
+        <button type="submit" id="loginButton" class="btn btn-lg " style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem;">LOGIN</button>
     </div>
+    </form>
 </main>
