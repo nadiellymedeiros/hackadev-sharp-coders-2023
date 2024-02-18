@@ -49,6 +49,13 @@ button {
     display: none;
 }
 
+/* Pequenos smartphones */
+@media only screen and (max-width: 370px) {
+    .container-pai {
+        margin: 1%;     
+    }
+}
+
 /* Notebook */
 @media screen and (min-width: 768px) and (max-width: 992px) {
     .title-mobile {
@@ -203,4 +210,3 @@ button {
     }
 
 }
-  
