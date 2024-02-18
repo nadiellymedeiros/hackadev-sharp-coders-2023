@@ -50,17 +50,11 @@ button {
     .title-mobile {
         display: none;
     }
-    
 
 }
   
   /* Desktop */
 @media screen and (min-width: 1200px) {
-
-    .mobile {
-        display: none;
-    }
-    
     .title-mobile {
         display: none;
     }
