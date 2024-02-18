@@ -166,32 +166,126 @@
 
     <!-- Div responsavel pelo Filtro de pesquisas -->
     <div class="container-fluid bg-light noventa my-4 px-5 py-4">
-      <h1>Filtro</h1>
+      <h1 class="mb-5">Filtro</h1>
 
-      <div class="d-flex row">
-        <div class="dropdown col-3 text-nowrap">
-          <button
-            class="btn dropdown-toggle"
-            type="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            <p class="letraPequena text-start mb-0">Período</p>
-            Selecione o período
-          </button>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Hoje</a></li>
-            <li><a class="dropdown-item" href="#">2 últimos dias</a></li>
-            <li><a class="dropdown-item" href="#">5 últimos dias</a></li>
-            <li><a class="dropdown-item" href="#">30 últimos dias</a></li>
-          </ul>
+      <div class="container row">
+        <!-- Div para filtro de Período -->
+        <div class="d-flex col-md-6 col-lg-3 p-0">
+          <div class="dropdown">
+            <button
+              class="btn dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <p class="letraPequena text-start mb-0">Período</p>
+              Selecionar período
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Hoje</a></li>
+              <li><a class="dropdown-item" href="#">2 últimos dias</a></li>
+              <li><a class="dropdown-item" href="#">5 últimos dias</a></li>
+              <li><a class="dropdown-item" href="#">30 últimos dias</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Div para filtro de datas -->
+        <div class="d-flex col-md-6 col-lg-3 p-0">
+          <div class="dropdown text-nowrap">
+            <button
+              class="btn dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <p class="letraPequena text-start mb-0">
+                Selecionar dias(máx 1ano)
+              </p>
+              Selecionar datas
+            </button>
+          </div>
+        </div>
+
+        <!-- Div para filtro de horario inicial -->
+        <!-- <div class="d-flex col-md-6 col-lg-3 p-0">
+          <div class="dropdown text-nowrap">
+            <button
+              class="btn dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <p class="letraPequena text-start mb-0">Inicio</p>
+              Selecione a hora inicial
+            </button>
+          </div>
+        </div> -->
+
+        <!-- Div para filtro de horario final -->
+        <!-- <div class="d-flex col-md-6 col-lg-3 p-0 ps-lg-1">
+          <div class="dropdown text-nowrap">
+            <button
+              class="btn dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <p class="letraPequena text-start mb-0">Têrmino</p>
+              Selecione a hora final
+            </button>
+          </div>
+        </div> -->
+
+        <!-- Div responsavel pelo tipo de filtro usado -->
+        <div class="d-flex col-md-6 col-lg-3 p-0">
+          <div class="dropdown">
+            <button
+              class="btn dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <p class="letraPequena text-start mb-0">Filtrar por data de</p>
+              Selecionar Transação
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Transações</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Liberação das vendas</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Div responsavel pelo filtro de status de transação -->
+        <div class="d-flex col-md-6 col-lg-3 p-0">
+          <div class="dropdown">
+            <button
+              class="btn dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <p class="letraPequena text-start mb-0">Status de transação</p>
+              Selecionar todos
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Selecionar todos</a></li>
+              <li><a class="dropdown-item" href="#">Aprovada</a></li>
+              <li><a class="dropdown-item" href="#">Cancelada</a></li>
+            </ul>
+          </div>
         </div>
       </div>
+      <div class="container-fluid d-flex justify-content-center">
+        <!-- Botão buscar -->
+        <button type="button" class="btn bg-orange w-25 my-5">Buscar</button>
+      </div>
     </div>
-
     <!-- Div responsavel pelo extrato, após ser filtrado. -->
     <div class="container-fluid bg-light noventa mt-4 px-5 py-4">
-      <h1>Transações</h1>
+      <h1 class="mb-5">Transações</h1>
       <div
         class="container-fluid d-flex flex-column align-items-center justify-content-center"
       >
