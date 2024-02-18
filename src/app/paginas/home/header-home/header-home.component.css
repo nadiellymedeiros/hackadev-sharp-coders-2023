@@ -90,15 +90,50 @@ button {
     margin-top: 5%;
 }
 
-/* .desktop-hide {
+.pc {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.mobile-hide {
     display: none;
-} */
+}
 
 /* Notebook */
 @media screen and (min-width: 768px) and (max-width: 992px) {}
 
 /* Desktop */
 @media screen and (min-width: 1200px) {
+    .pc-hide {
+        display: none;
+    }
+
+    .pc {
+        width: auto;
+        height: auto;
+        visibility: visible;
+    }
+
+    .mobile {
+        display: none;
+        visibility: hidden;
+    }
+
+    .client-info {
+        color: #F67816;
+    }
+
+    .vertical-line {
+        width: 1px;
+        height: 60px;
+        background-color: #F67816;
+    }
+    
+    .pc i{
+        font-size: 2rem;
+        margin: 0 20px;
+    }
 
     .logo img {
         width: 5vw;

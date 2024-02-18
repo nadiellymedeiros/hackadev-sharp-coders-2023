@@ -8,13 +8,30 @@
           </button>
         </div>
         <!-- <div class="collapse navbar-collapse" id="navbarScroll"> -->
-        <div class="d-flex">
-            <button routerLink="/home"><i class="bi bi-house-fill menu-icone"></i></button>
-            <button routerLink="#"><i class="bi bi-person-circle menu-icone"></i></button>    
+        <div class="d-flex mobile">
+            <button routerLink="/home"><i class="bi bi-house-fill menu-icone "></i></button>
+            <button routerLink="#"><i class="bi bi-person-circle menu-icone "></i></button>    
+        </div>
+        <div class="pc d-flex align-items-center justify-content-center">
+            <div class="fist-icons d-flex">
+                <i class="bi bi-search"></i>
+                <div class="vertical-line"></div>
+                <i class="bi bi-bell-fill"></i>
+                <div class="vertical-line"></div>
+            </div>
+            <button routerLink="#">
+                <div class="client-info d-flex align-items-center justify-content-center">
+                    <i class="bi bi-person-circle menu-icone"></i>
+                    <div class="d-flex flex-column align-items-baseline p-3">
+                        <h6 id="userName">Nome de usuário</h6>
+                        <h6 id="userEmail">E-mail</h6>
+                    </div>            
+                </div>
+            </button>    
         </div>
     </nav>
-    <div class="desktop-hide">
-        <div class="desktop d-flex flex-column justify-content-center">
+    <div class="pc-hide">
+        <div class="d-flex flex-column justify-content-center">
             <div class="saldo formato">
                 <div class="saldo-top d-flex align-items-center justify-content-between">
                     <h4>Saldo</h4>
@@ -38,4 +55,3 @@
            <button routerLink="/extrato">Ver Extrato</button> 
         </div>
     </div>
-</div>
