@@ -1,4 +1,4 @@
-<div class="home-content bg-black">
+<div class="home-content bg-black mobile">
 
     <div class="primeira-fileira d-flex justify-content-center">
         <div class="vendas container-pai">
@@ -10,7 +10,7 @@
                 </div>
             </button>
         </div>
-        
+
         <div class="contas container-pai">
             <button routerLink="/#">
                 <div class="container-filho">
@@ -20,7 +20,7 @@
                 </div>
             </button>
         </div>
-    
+
         <div class="poupar container-pai">
             <button routerLink="/#">
                 <div class="container-filho">
@@ -52,7 +52,7 @@
                 </div>
             </button>
         </div>
-    
+
         <div class="cartoes container-pai">
             <button routerLink="/#">
                 <div class="container-filho">
@@ -63,7 +63,7 @@
             </button>
         </div>
     </div>
-    
+
     <div class="tercerira-fileira d-flex justify-content-center">
 
         <div class="recarga container-pai">
@@ -75,7 +75,7 @@
                 </div>
             </button>
         </div>
-    
+
         <div class="indicar container-pai">
             <button routerLink="/#">
                 <div class="indicar container-filho">
@@ -85,7 +85,7 @@
                 </div>
             </button>
         </div>
-    
+
         <div class="outros container-pai">
             <button routerLink="/#">
                 <div class="container-filho">
@@ -95,6 +95,92 @@
                 </div>
             </button>
         </div>
-    </div>  
+    </div>
+
+</div>
+
+<div class="home-content bg-black mobile-hide pc flex-column justify-content-center align-items-center">
+
+    <div class="pesquisa">
+        <div class="pesquisa d-flex align-items-center">
+            <input type="text" placeholder="O que está procurando?">
+            <!-- <i class="bi bi-search"></i> -->
+        </div>
+    </div>
+
+    <div class="pc-infos d-flex">
+        <div class="saldo-pc formato-pc-infos d-flex flex-column">
+            <div class="saldo-alinhamento d-flex justify-content-between">
+                <h3>Saldo</h3>
+                <button class="eye-btn" routerLink="#"><i class="bi bi-eye-slash"></i></button>            
+            </div>
+            <div class="saldo-em-conta d-flex">
+                <h5>R$</h5><h5>0,00</h5>
+            </div>
+            <div class="info-detalhada">
+                <div class="vendas-pc">
+                    <p>Vendas a Receber</p>
+                    <div class="saldo-a-receber d-flex">
+                        <p>R$</p><p>0,00</p>
+                    </div>
+                    <button routerLink="#">Antecipar</button>
+                </div>
+                <div class="bloqueado-pc">
+                    <p>Bloqueado</p>
+                    <div class="saldo-bloqueado">
+                        <div class="saldo-alinhamento d-flex justify-content-between">
+                            <div class="saldo-bloqueado-alinhamento d-flex">
+                                <p>R$</p><p>0,00</p>
+                            </div>
+                            <button routerLink="#"><i class="bi bi-question-circle"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="liberacoes-pc formato-pc-infos d-flex flex-column">
+            <h4>Proximas Liberações</h4>
+            <div class="background-money-icon align-self-center d-flex align-items-center">
+                <i class="bi bi-currency-dollar align-self-center m-3 fs-2"></i>
+            </div>
+            <p>Você não possui valores a receber nos próximos 90 dias.</p>
+        </div>
+    </div>
+
+    <div class="favoritos">
+        <div class="alinhamento-favoritos d-flex justify-content-between">
+            <h6 class="align-self-lg-start">Meus Favoritos</h6>            
+            <button routerLink="#"><p>Personalizar</p></button>
+        </div>
+        <div class="favoritos-opcoes d-flex align-items-center justify-content-between">
+            <button class="pagar-contas favoritos-opcao" routerLink="/#">
+                <i class="bi bi-upc"></i>
+                <p>Pagar Contas</p>
+            </button>
+            <button class="boletos favoritos-opcao" routerLink="/#">
+                <i class="bi bi-upc-scan"></i>
+                <p>Boletos</p>
+            </button>
+            <button class="Transferências favoritos-opcao" routerLink="/#">
+                <i class="bi bi-arrow-left-right"></i>
+                <p>Transferências</p>
+            </button>
+            <button class="Extrato favoritos-opcao" routerLink="/#">
+                <i class="bi bi-file-earmark"></i>
+                <p>Extrato</p>
+            </button>
+        </div>
+    </div>
+
+    <div class="ultimas-transacoes">
+        <h4>Últimas Transações</h4>
+        <div class="alinhamento-ultims-transacoes d-flex flex-column align-items-center">
+            <div class="d-flex justify-content-center align-items-center i-color ">
+                <i class="bi bi-info-circle-fill infoIcon"></i>
+            </div>
+            <p>Você não possui transações nos últimos 3 dias.</p>
+            <button><p>Ver extrato completo</p></button>
+        </div>
+    </div>
 
 </div>
