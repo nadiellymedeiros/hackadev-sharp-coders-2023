@@ -113,6 +113,7 @@ p {
 
 @media (min-width: 550px) {
   .extrato {
-    padding-top: 107px;
+    /* padding-top: 107px; */
+    display: none;
   }
 }
