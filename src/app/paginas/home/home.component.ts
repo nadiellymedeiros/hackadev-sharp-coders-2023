@@ -7,19 +7,21 @@ import { FooterDesktopComponent } from '../../componentes/footer/footer-desktop/
 
 import { Router } from '@angular/router';
 import { FooterComponent } from '../../componentes/footer/footer.component';
+import { NavbarDesktopComponent } from "../../componentes/navbar/navbar-desktop/navbar-desktop.component";
 
 @Component({
-  selector: 'app-home',
-  standalone: true,
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.css',
-  imports: [
-    CommonModule,
-    ContentHomeComponent,
-    HeaderHomeComponent,
-    FooterComponent,
-    FooterMobileComponent,
-    FooterDesktopComponent,
-  ],
+    selector: 'app-home',
+    standalone: true,
+    templateUrl: './home.component.html',
+    styleUrl: './home.component.css',
+    imports: [
+        CommonModule,
+        ContentHomeComponent,
+        HeaderHomeComponent,
+        FooterComponent,
+        FooterMobileComponent,
+        FooterDesktopComponent,
+        NavbarDesktopComponent
+    ]
 })
 export class HomeComponent {}
