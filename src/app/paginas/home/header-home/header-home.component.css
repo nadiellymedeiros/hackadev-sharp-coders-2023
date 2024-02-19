@@ -99,10 +99,15 @@ button {
 }
 
 /* Notebook */
-@media screen and (min-width: 768px) and (max-width: 992px) {}
+@media screen and (min-width: 900px) {
+    
+.formato {
+    padding: 3% 5%;
+}
+}
 
 /* Desktop */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1000px) {
 
     .header-home {
         padding: 0;
