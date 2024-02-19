@@ -2,13 +2,19 @@
     width: 90%;
 }
 
+/* Coloração para os textos em laranja */
+.laranja {
+    color: #FE6F25;
+}
+
+.bg-orange {
+    background-color: #FE6F25;
+    color: white;
+}
+
 /* Mobile */
 @media screen and (max-width: 767px) {
 
-    /* Coloração para os textos em laranja */
-    .laranja {
-        color: #F67816;
-    }
 
     /* Coloração cinza para as janelas expansivas do extrato */
     .cinza {
@@ -51,11 +57,11 @@
 
     .infoIcon {
         font-size: 5em;
-        color: #1082BE;
+        /* color: #1082BE; */
+        color: #FE6F25;
     }
 
     .letraPequena {
         font-size: 0.7em;
     }
-
 }
