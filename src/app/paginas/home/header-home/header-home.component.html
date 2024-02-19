@@ -1,61 +1,74 @@
 <router-outlet></router-outlet>
 <div class="header-home bg-black">
-    <nav class="navbar">
-        <div class="container-fluid">
-          <button class="navbar-brand" routerLink="/home">
-            <img src="assets/extrato/logo.jpeg" alt="Bootstrap" width="30" />
-            Sharp Coding
-          </button>
-        </div>
-        <!-- <div class="collapse navbar-collapse" id="navbarScroll"> -->
-        <div class="d-flex mobile">
-            <button routerLink="/home"><i class="bi bi-house-fill menu-icone "></i></button>
-            <button routerLink="#"><i class="bi bi-person-circle menu-icone "></i></button>    
-        </div>
-        <div class="pc">
-            <div class="fist-icons d-flex">
-                <button routerLink="#">
-                    <i class="bi bi-search"></i>
-                </button>
-                <div class="vertical-line"></div>
-                <button routerLink="#">
-                    <i class="bi bi-bell-fill"></i>
-                </button>
-                <div class="vertical-line"></div>
-            </div>
-            <button routerLink="#">
-                <div class="client-info d-flex align-items-center justify-content-center">
-                    <i class="bi bi-person-circle menu-icone"></i>
-                    <div class="d-flex flex-column align-items-baseline p-3">
-                        <h6 id="userName">Nome de usuário</h6>
-                        <h6 id="userEmail">E-mail</h6>
-                    </div>            
-                </div>
-            </button>    
-        </div>
-    </nav>
-    <div class="pc-hide">
-        <div class="d-flex flex-column justify-content-center">
-            <div class="saldo formato">
-                <div class="saldo-top d-flex align-items-center justify-content-between">
-                    <h4>Saldo</h4>
-                    <button routerLink="#"><i class="bi bi-eye"></i></button>
-                </div>
-                <div class="saldo-bot d-flex align-items-center justify-content-between">
-                    <div class="saldo-em-conta d-flex">
-                        <h2>R$</h2><h2>...</h2>
-                    </div>
-                    <button routerLink="#"><h6>Guardar</h6></button>              
-                </div>
-            </div>
-            <div class="vendas formato">
-                <h3>Vendas a Receber</h3>
-                <div class="vendas-a-receber d-flex">
-                    <h2>R$</h2><h2>...</h2>
-                </div>
-            </div>
-        </div>
-        <div class="extrato d-flex align-content-center justify-content-center">
-           <button routerLink="/extrato">Ver Extrato</button> 
-        </div>
+  <!-- <nav class="navbar">
+    <div class="container-fluid">
+      <button class="navbar-brand" routerLink="/home">
+        <img src="assets/extrato/logo.jpeg" alt="Bootstrap" width="30" />
+        Sharp Coding
+      </button>
     </div>
+
+    <div class="d-flex mobile">
+      <button routerLink="/home">
+        <i class="bi bi-house-fill menu-icone"></i>
+      </button>
+      <button routerLink="#">
+        <i class="bi bi-person-circle menu-icone"></i>
+      </button>
+    </div>
+    <div class="pc">
+      <div class="fist-icons d-flex">
+        <button routerLink="#">
+          <i class="bi bi-search"></i>
+        </button>
+        <div class="vertical-line"></div>
+        <button routerLink="#">
+          <i class="bi bi-bell-fill"></i>
+        </button>
+        <div class="vertical-line"></div>
+      </div>
+      <button routerLink="#">
+        <div
+          class="client-info d-flex align-items-center justify-content-center"
+        >
+          <i class="bi bi-person-circle menu-icone"></i>
+          <div class="d-flex flex-column align-items-baseline p-3">
+            <h6 id="userName">Nome de usuário</h6>
+            <h6 id="userEmail">E-mail</h6>
+          </div>
+        </div>
+      </button>
+    </div>
+  </nav> -->
+  <div class="pc-hide">
+    <div class="d-flex flex-column justify-content-center">
+      <div class="saldo formato">
+        <div
+          class="saldo-top d-flex align-items-center justify-content-between"
+        >
+          <h4>Saldo</h4>
+          <button routerLink="#"><i class="bi bi-eye"></i></button>
+        </div>
+        <div
+          class="saldo-bot d-flex align-items-center justify-content-between"
+        >
+          <div class="saldo-em-conta d-flex">
+            <h2>R$</h2>
+            <h2>...</h2>
+          </div>
+          <button routerLink="#"><h6>Guardar</h6></button>
+        </div>
+      </div>
+      <div class="vendas formato">
+        <h3>Vendas a Receber</h3>
+        <div class="vendas-a-receber d-flex">
+          <h2>R$</h2>
+          <h2>...</h2>
+        </div>
+      </div>
+    </div>
+    <div class="extrato d-flex align-content-center justify-content-center">
+      <button routerLink="/extrato">Ver Extrato</button>
+    </div>
+  </div>
+</div>

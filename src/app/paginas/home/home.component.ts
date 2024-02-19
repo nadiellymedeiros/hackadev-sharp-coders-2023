@@ -7,6 +7,8 @@ import { FooterDesktopComponent } from '../../componentes/footer/footer-desktop/
 
 import { Router } from '@angular/router';
 import { FooterComponent } from '../../componentes/footer/footer.component';
+import { NavbarDesktopComponent } from '../../componentes/navbar/navbar-desktop/navbar-desktop.component';
+import { NavbarMobileComponent } from '../../componentes/navbar/navbar-mobile/navbar-mobile.component';
 
 @Component({
   selector: 'app-home',
@@ -20,6 +22,8 @@ import { FooterComponent } from '../../componentes/footer/footer.component';
     FooterComponent,
     FooterMobileComponent,
     FooterDesktopComponent,
+    NavbarDesktopComponent,
+    NavbarMobileComponent,
   ],
 })
 export class HomeComponent {}
