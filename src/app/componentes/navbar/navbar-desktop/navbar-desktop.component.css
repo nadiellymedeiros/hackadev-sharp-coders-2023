@@ -9,7 +9,7 @@
   padding: 0;
 }
 
-.container-fluid{
+.container-fluid {
   position: fixed;
   top: 0px;
   background-color: #000000;
@@ -21,7 +21,7 @@
   margin-left: 5%;
 }
 
-.navbar li{
+.navbar li {
   padding: 15px;
   border-left: 1px solid #fff;
 }
@@ -50,5 +50,3 @@
 .navbar-collapse {
   background-color: rgba(0, 0, 0, 0.75);
 }
-
-

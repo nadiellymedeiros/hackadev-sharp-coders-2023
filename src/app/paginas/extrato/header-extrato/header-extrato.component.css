@@ -110,3 +110,9 @@ p {
   gap: 10px;
   padding: 10px;
 }
+
+@media (min-width: 550px) {
+  .extrato {
+    padding-top: 107px;
+  }
+}
