@@ -22,31 +22,36 @@
 }
 
 .navbar li {
+  margin: auto;
   padding: 15px;
-  border-left: 1px solid #fff;
 }
 
-.navbar li:first-child {
-  border-left: none;
+.vertical-line {
+  margin: auto;
+  width: 1px;
+  height: 60px;
+  background-color: #F67816;
 }
 
-.navbar li:last-child {
-  border-right: none;
-}
-
-.nav-item img {
+.nav-item i {
   opacity: 40%;
+  color: #F67816;
+  font-size: 1.8em;
 }
 
-.nav-item img:hover {
+.nav-item i:hover {
   opacity: 100%;
 }
 
 .nav-item .dropdown-toggle {
-  color: #fff;
+  color: #F67816;
   letter-spacing: 1.8px;
 }
 
-.navbar-collapse {
-  background-color: rgba(0, 0, 0, 0.75);
+.dropdown-item{
+  color: #F67816;
+}
+
+.dropdown-menu{
+  background-color: rgba(0, 0, 0, 0.849);
 }
