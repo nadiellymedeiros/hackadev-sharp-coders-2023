@@ -23,7 +23,7 @@
   margin-right: 15px;
 }
 
-@media (min-width: 550px) {
+@media (min-width: 768px) {
   .navbar {
     display: none;
   }
