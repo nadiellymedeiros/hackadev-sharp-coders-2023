@@ -164,3 +164,12 @@ Durante esta fase, o projeto foi dividido em quatro sprints, cada uma com metas 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=30A3DC)](https://www.linkedin.com/in/luanoliveira98/)
 
 </br></br>
+
+<div ><img src="https://avatars.githubusercontent.com/alanvargas04" style="border-radius:10px" width="100px;" alt=""/></div>
+
+<h3>Alan Vargas</h3>
+
+[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=30A3DC)](https://github.com/alanvargas04)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=30A3DC)](http://linkedin.com/in/alan-vargas-37b09b297)
+
+</br></br>
