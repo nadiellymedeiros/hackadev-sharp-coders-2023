@@ -1,164 +1,161 @@
 * {
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-    background-color: black;
-    width: 100%;
-    height: 100%;
+  background-color: var(--black);
+  width: 100%;
+  height: 100%;
 }
 
-.header{
-    text-align: center;
-    position: relative;
-    margin: auto;
-    padding: 20px;
-    width: 100%;
-    height: 140px;
-    border-bottom: 2px solid gray;
+.header {
+  text-align: center;
+  position: relative;
+  margin: auto;
+  padding: 20px;
+  width: 100%;
+  height: 140px;
+  border-bottom: 2px solid gray;
 }
 
 .header img {
-    width: 100%;
-    max-width: 471px;
-    height: 120px;
+  width: 100%;
+  max-width: 471px;
+  height: 120px;
 }
 
 .main {
-    display: flex;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
-.card-left{
-    width: 50%;
-    height: 100%;
-    text-align: end;
-    padding: 2%;
+.card-left {
+  width: 50%;
+  height: 100%;
+  text-align: end;
+  padding: 2%;
 }
 
 .card-left .principal {
-    width: 100%;
-    max-width: 429px;
+  width: 100%;
+  max-width: 429px;
 }
 
-.footer-card  p{
-    float: left;
-    margin-top: 6%;
-    margin-left: 10%;
-    color: #666666;
+.footer-card p {
+  float: left;
+  margin-top: 6%;
+  margin-left: 10%;
+  color: var(--gray-200);
 }
 
-.card-left .app-store{
-    width: 100%;
-    max-width: 135px;
-    border-radius: 5px;
-    margin-top: 5%;
-    margin-right: 10px;
-    opacity: 40%;
-    cursor: pointer;
+.card-left .app-store {
+  width: 100%;
+  max-width: 135px;
+  border-radius: 5px;
+  margin-top: 5%;
+  margin-right: 10px;
+  opacity: 40%;
+  cursor: pointer;
 }
 
-.card-left .app-store:hover{
-    opacity: 100%;
+.card-left .app-store:hover {
+  opacity: 100%;
 }
 
-.card-left .google{
-    width: 100%;
-    max-width: 135px;
-    border-radius: 5px;
-    margin-top: 5%;
-    margin-right: 10px;
-    opacity: 40%;
-    cursor: pointer;
+.card-left .google {
+  width: 100%;
+  max-width: 135px;
+  border-radius: 5px;
+  margin-top: 5%;
+  margin-right: 10px;
+  opacity: 40%;
+  cursor: pointer;
 }
 
-.card-left .google:hover{
-    opacity: 100%;
+.card-left .google:hover {
+  opacity: 100%;
 }
 
-.card-rigth{
-    background-color: white;
-    padding: 20px;
-    margin: auto;
-    width: 100%;
-    max-width: 406px;
-    border-radius: 10px;
-    position: relative;
+.card-rigth {
+  background-color: var(--white);
+  padding: 20px;
+  margin: auto;
+  width: 100%;
+  max-width: 406px;
+  border-radius: 10px;
+  position: relative;
 }
 
 .card-rigth h3 {
-    color: #333333;
-    font-size: 1.5em;
+  color: var(--gray-500);
+  font-size: 1.5em;
 }
 
-
-.form-group{
-    margin: 10px;
+.form-group {
+  margin: 10px;
 }
-
-
 
 .form-group i {
-    cursor: pointer;
-    position: absolute;
-    top: 36%;
-    right: 40px;
+  cursor: pointer;
+  position: absolute;
+  top: 36%;
+  right: 40px;
 }
 
-.p1{
-    text-align: left;
-    margin: 20px;
+.p1 {
+  text-align: left;
+  margin: 20px;
 }
 
-.p1 a{
-    text-decoration:none;
-    font-size: 0.8em;
-    color: #1082BE;
+.p1 a {
+  text-decoration: none;
+  font-size: 0.8em;
+  color: var(--blue-500);
 }
 
-.p1 a:hover{
-    color: #51c1fd;
+.p1 a:hover {
+  color: var(--blue-200);
 }
 
-.p1 button{
-    width: 100%;
-    padding: 10px;
-    background-color: #FF6600;
-    text-transform: uppercase;
-    border: none;
+.p1 button {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--orange-500);
+  text-transform: uppercase;
+  border: none;
 }
 
-.p1 button:hover{
-    background-color: #ff8f44;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.603);
+.p1 button:hover {
+  background-color: var(--orange-100);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.603);
 }
 
-.p2 p{
-    color: #1082BE;
-    font-size: 0.8em;
+.p2 p {
+  color: var(--blue-500);
+  font-size: 0.8em;
 }
 
-.p2 a{
-    color: #1082BE;
+.p2 a {
+  color: var(--blue-500);
 }
 
-.p2 a:hover{
-    color: #51c1fd;
+.p2 a:hover {
+  color: var(--blue-200);
 }
 
 .footer {
-    background-color: white;
-    text-align: center;
-    width: 100%;
-    height: 100px;
-    padding: 10px;
+  background-color: var(--white);
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  padding: 10px;
 }
 
 .footer img {
-    height: 40px;
+  height: 40px;
 }
 
-.footer p{
-    font-size: 0.7em;
+.footer p {
+  font-size: 0.7em;
 }

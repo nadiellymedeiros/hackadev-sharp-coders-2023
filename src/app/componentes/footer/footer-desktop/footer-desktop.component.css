@@ -1,5 +1,5 @@
 .footer-desktop {
-  background-color: white;
+  background-color: var(--white);
   text-align: center;
   width: 100%;
   height: 100px;

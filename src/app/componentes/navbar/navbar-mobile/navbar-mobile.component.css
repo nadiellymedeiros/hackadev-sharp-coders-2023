@@ -1,5 +1,5 @@
 .navbar {
-  background: #000000;
+  background: var(--black);
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -12,12 +12,12 @@
 
 .navbar-brand {
   font-family: Poppins, sans-serif;
-  color: #fe6f25;
+  color: var(--orange-500);
 }
 
 .nav-icones {
   display: flex;
-  color: #fe6f25;
+  color: var(--orange-500);
   font-size: 30px;
   gap: 20px;
   margin-right: 15px;

@@ -7,7 +7,7 @@
 .container-fluid {
   position: fixed;
   top: 0px;
-  background-color: #000000;
+  background-color: var(--black);
   height: 106px;
   width: 100%;
 }
@@ -25,11 +25,11 @@
   margin: auto;
   width: 1px;
   height: 60px;
-  background-color: #f67816;
+  background-color: var(--orange-500);
 }
 
 .nav-item i {
-  color: #f67816;
+  color: var(--orange-500);
   font-size: 1.8em;
 }
 
@@ -38,12 +38,12 @@
 }
 
 .nav-item .dropdown-toggle {
-  color: #f67816;
+  color: var(--orange-500);
   letter-spacing: 1.8px;
 }
 
 .dropdown-item {
-  color: #f67816;
+  color: var(--orange-500);
 }
 
 .dropdown-menu {

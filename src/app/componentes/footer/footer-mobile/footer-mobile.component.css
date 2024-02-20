@@ -31,7 +31,7 @@
   margin: 0 auto;
   width: 100%;
   height: 7.25rem;
-  background-color: #000000;
+  background-color: var(--black);
   border-end-start-radius: 40px;
   border-end-end-radius: 40px;
 }
