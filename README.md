@@ -59,11 +59,35 @@ Durante esta fase, o projeto foi dividido em quatro sprints, cada uma com metas 
 
 #### Sprint 1: Setup do Projeto
 
--
+- Nessa sprint, foram alcançados diversos marcos significativos para fortalecer e consolidar a identidade do time.
+  - Primeiramente, foi realizada a eleição de um vice-monitor, promovendo uma distribuição eficiente das responsabilidades e contribuindo para uma liderança colaborativa.
+  - Em seguida, houve a escolha de um nome para o grupo, proporcionando uma identidade distintiva.
+  - A criação da identidade visual original representou um passo crucial, envolvendo a concepção de elementos visuais que refletem os objetivos do grupo.
+  - Por fim, a definição do propósito do grupo não apenas delineou seus objetivos, mas também serviu como um guia inspirador para orientar as ações e decisões futuras.
 
 #### Sprint 2: Desenvolvimento do Frontend
 
--
+- Na Sprint 2 alcançamos uma série de marcos cruciais que impulsionaram o desenvolvimento eficaz da interface do usuário.  
+  - O desenvolvimento da página de login foi desenvolvimento focando proporcionar uma visualização do sistema de autenticação para os usuários.
+  - A página inicial (home) também foi elaborada, destacando-se pela sua acessibilidade, design responsivo e disposição lógica dos elementos.
+  - Por fim, a página de transações (extrato) foi implementada, oferecendo aos usuários uma visão detalhada e organizada de suas atividades financeiras.
+  - A conclusão desses objetivos marca um avanço significativo no desenvolvimento do front-end, contribuindo para a construção de uma plataforma Fintech robusta e amigável aos usuários.
+  - A separação de features proporcionou uma visão clara e estruturada das funcionalidades a serem implementadas e foi feita da seguinte forma:
+    - Feature 100: Desenvolvimento da Arquitetura.
+    - Feature 101: Desenvolvimento das Rotas.
+    - Feature 103: Desenvolvimento da Página Login para Mobile.
+    - Feature 104: Desenvolvimento da Página Login para Desktop.
+    - Feature 105: Desenvolvimento da Página Home (Header Mobile e Desktop).
+    - Feature 106: Desenvolvimento da Página Home (Content Mobile e Desktop).
+    - Feature 107: Desenvolvimento da Página Extrato (Header Mobile e Desktop).
+    - Feature 108: Desenvolvimento da Página Extrato (Content Mobile e Desktop).
+    - Feature 109: Desenvolvimento do Footer (Mobile e Desktop).
+    - Feature 110: Desenvolvimento do Read Me.
+    - Feature 111: Desenvolvimento da SideBar.
+    - Feature 112: Desenvolvimento de Responsividade da Página Login.
+    - Feature 113: Desenvolvimento da NavBar para Desktop.
+    - Feature 114: Desenvolvimento da NavBar para Mobile.
+    - Feature 115: Desenvolvimento da Página de Cadastro. (Extra)
 
 #### Sprint 3: Desenvolvimento do Backend
 
