@@ -16,12 +16,12 @@ button {
 }
 
 .container-pai {
-    margin: 3%;     
+    margin: 1%;     
 }
 
 .container-filho {
     background-color: #FFF;
-    width: 100px;
+    width: 25vw;
     height: 100px;
     border-radius: 20px;   
     display: flex;
@@ -57,19 +57,32 @@ button {
 }
 
 /* Notebook */
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 600px) {
+
+    .container-pai {
+        margin: 5% 0;
+    }
     .title-mobile {
         display: none;
     }
 
-    .mobile {
-        display: none;
+    .title-pc {
+        display: block;
+    }
+
+    .container-filho {
+        width: 28vw;
+        margin-bottom: 0;
+    }
+
+    .terceira-fileira{
+        margin-bottom: 8%;
     }
 
 }
   
   /* Desktop */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1000px) {
 
     .mobile-hide {
         display: flex;
@@ -95,12 +108,7 @@ button {
     .title-pc {
         display: block;
     }
-
-    .container-filho {
-        width: 250px;
-        margin-bottom: 0;
-    }
-
+  
     .home-content {
         padding-top: 0; 
     }

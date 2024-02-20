@@ -1,8 +1,3 @@
-@media (max-width: 600px) {
-  .nav-desktop {
-    display: none;
-  }
-}
 * {
   font-family: "Poppins", sans-serif;
   margin: 0;
@@ -30,28 +25,33 @@
   margin: auto;
   width: 1px;
   height: 60px;
-  background-color: #F67816;
+  background-color: #f67816;
 }
 
 .nav-item i {
-  opacity: 40%;
-  color: #F67816;
+  color: #f67816;
   font-size: 1.8em;
 }
 
 .nav-item i:hover {
-  opacity: 100%;
+  opacity: 70%;
 }
 
 .nav-item .dropdown-toggle {
-  color: #F67816;
+  color: #f67816;
   letter-spacing: 1.8px;
 }
 
-.dropdown-item{
-  color: #F67816;
+.dropdown-item {
+  color: #f67816;
 }
 
-.dropdown-menu{
+.dropdown-menu {
   background-color: rgba(0, 0, 0, 0.849);
+}
+
+@media (max-width: 600px) {
+  .nav-desktop {
+    display: none;
+  }
 }

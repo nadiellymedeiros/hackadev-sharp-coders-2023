@@ -1,167 +1,176 @@
 button {
-    cursor: pointer;
-    background: none;
-    border: none;
+  cursor: pointer;
+  background: none;
+  border: none;
 }
 
 .navbar-brand {
-    font-family: Poppins, sans-serif;
-    color: #fe6f25;
+  font-family: Poppins, sans-serif;
+  color: #fe6f25;
 }
 
 .navbar {
-    background: #000000;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
+  background: #000000;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .container-fluid {
-    width: 50%;
-    margin: 0;
+  width: 50%;
+  margin: 0;
 }
 
 .header-home {
-    margin: 0 !important;
-    width: auto;
-    height: auto;
-    padding: 2%;
-    color: #F67816;
-    border: solid 5px black;
+  margin: 0 !important;
+  width: auto;
+  height: auto;
+  padding: 2%;
+  color: #f67816;
+  border: solid 5px black;
 }
 
 .header-home i {
-    font-size: 3rem;
-    color: #F67816;
+  font-size: 3rem;
+  color: #f67816;
 }
 
 .header-home h3 {
-    color: #F67816;
-    font-weight: 400;
+  color: #f67816;
+  font-weight: 400;
 }
 
 .logo img {
-    width: 12vw;
+  width: 12vw;
 }
 
 .bi-house {
-    margin-right: 15px;
+  margin-right: 15px;
 }
 
 .formato {
-    background-color: #FFF;
-    padding: 3% 5%;
-    margin: 3%;
-    border-radius: 20px;
+  background-color: #fff;
+  padding: 3% 5%;
+  margin: 3%;
+  border-radius: 20px;
 }
 
 .saldo i {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .saldo button {
-    border: none;
-    background: none;
+  border: none;
+  background: none;
 }
 
 .vendas {
-    padding: 5%;
+  padding: 5%;
 }
 
 .saldo h4 {
-    font-weight: 7+ 00;
+  font-weight: 7+ 00;
 }
 
 .saldo h6 {
-    background-color: #D9D9D9;
-    width: 80px;
-    height: 20px;
-    border-radius: 50px;
-    color: #F67816;
+  background-color: #d9d9d9;
+  width: 80px;
+  height: 20px;
+  border-radius: 50px;
+  color: #f67816;
 }
 
 .extrato button {
-    width: 85vw;
-    background-color: #F67816;
-    color: #D9D9D9;
-    border-radius: 10px;
-    border: none;
-    font-size: 1.5rem;
-    margin-top: 5%;
+  width: 85vw;
+  background-color: #f67816;
+  color: #d9d9d9;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.5rem;
+  margin-top: 5%;
 }
 
 .pc {
-    display: none;
+  display: none;
 }
 
 .mobile-hide {
-    display: none;
+  display: none;
 }
 
 /* Notebook */
-@media screen and (min-width: 768px) and (max-width: 992px) {}
+@media screen and (min-width: 900px) {
+  .formato {
+    padding: 3% 5%;
+  }
+}
 
 /* Desktop */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1000px) {
+  .header-home {
+    padding: 0;
+  }
 
-    .header-home {
-        padding: 0;
-    }
+  .pc-hide {
+    display: none;
+  }
 
-    .pc-hide {
-        display: none;
-    }
+  .pc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .pc {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+  .mobile {
+    display: none;
+    visibility: hidden;
+  }
 
-    .mobile {
-        display: none;
-        visibility: hidden;
-    }
+  .client-info {
+    color: #f67816;
+  }
 
-    .client-info {
-        color: #F67816;
-    }
+  .vertical-line {
+    width: 1px;
+    height: 60px;
+    background-color: #f67816;
+  }
 
-    .vertical-line {
-        width: 1px;
-        height: 60px;
-        background-color: #F67816;
-    }
-    
-    .pc i{
-        font-size: 2rem;
-        margin: 0 20px;
-    }
+  .pc i {
+    font-size: 2rem;
+    margin: 0 20px;
+  }
 
-    .logo img {
-        width: 5vw;
-    }
+  .logo img {
+    width: 5vw;
+  }
 
-    .saldo {
-        flex-direction: column;
-    }
+  .saldo {
+    flex-direction: column;
+  }
 
-    .formato {
-        width: 25vw;
-        height: 20vh;
-        padding: 2%;
-        margin-bottom: 1%;
-    }
+  .formato {
+    width: 25vw;
+    height: 20vh;
+    padding: 2%;
+    margin-bottom: 1%;
+  }
 
-    .saldo {
-        margin-right: 9%;
-    }
+  .saldo {
+    margin-right: 9%;
+  }
 
-    .desktop {
-        flex-direction: row !important;
-    }
+  .desktop {
+    flex-direction: row !important;
+  }
 
-    .extrato button {
-        width: 30vw;
-    }
+  .extrato button {
+    width: 30vw;
+  }
+}
+
+@media (min-width: 550px) {
+  .header-home {
+    padding-top: 110px;
+  }
 }
