@@ -83,11 +83,9 @@ Durante esta fase, o projeto foi dividido em quatro sprints, cada uma com metas 
     - Feature 108: Desenvolvimento da Página Extrato (Content Mobile e Desktop).
     - Feature 109: Desenvolvimento do Footer (Mobile e Desktop).
     - Feature 110: Desenvolvimento do Read Me.
-    - Feature 111: Desenvolvimento da SideBar.
     - Feature 112: Desenvolvimento de Responsividade da Página Login.
     - Feature 113: Desenvolvimento da NavBar para Desktop.
     - Feature 114: Desenvolvimento da NavBar para Mobile.
-    - Feature 115: Desenvolvimento da Página de Cadastro. (Extra)
 
 #### Sprint 3: Desenvolvimento do Backend
 
