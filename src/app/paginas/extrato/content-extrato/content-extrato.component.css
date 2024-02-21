@@ -4,12 +4,12 @@
 
 /* Coloração para os textos em laranja */
 .laranja {
-    color: #FE6F25;
+    color: var(--orange-500);
 }
 
 .bg-orange {
-    background-color: #FE6F25;
-    color: white;
+    background-color: var(--orange-500);
+    color: var(--white);
 }
 
 /* Mobile */
@@ -18,7 +18,7 @@
 
     /* Coloração cinza para as janelas expansivas do extrato */
     .cinza {
-        background-color: #E6ECF2;
+        background-color: var(--gray-100);
     }
 
     .centraliza {
@@ -39,12 +39,7 @@
     }
 
     .corDesktop {
-        background-color: #333333;
-    }
-
-    .infoIcon {
-        color: #1082BE;
-        font-size: 5em;
+        background-color: var(--gray-500);
     }
 
     .letraPequena {
@@ -58,7 +53,7 @@
     .infoIcon {
         font-size: 5em;
         /* color: #1082BE; */
-        color: #FE6F25;
+        color: var(--orange-500);
     }
 
     .letraPequena {
