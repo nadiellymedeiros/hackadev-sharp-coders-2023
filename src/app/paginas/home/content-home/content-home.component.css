@@ -12,7 +12,7 @@ button {
     width: auto;
     height: auto;
     padding-top: 5%;
-    border: solid 5px black;
+    border: solid 5px var(--black);
 }
 
 .container-pai {
@@ -20,7 +20,7 @@ button {
 }
 
 .container-filho {
-    background-color: #FFF;
+    background-color: var(--white);
     width: 25vw;
     height: 100px;
     border-radius: 20px;   
@@ -34,7 +34,7 @@ button {
 .container-filho  h6 {
     font-size: large;
     margin-top: 5px;
-    color: #F67816;
+    color: var(--orange-500);
 }
 
 .container-filho  img {
@@ -93,7 +93,7 @@ button {
 
     .pesquisa i {
         font-size: 1.5rem;
-        color: #F67816;
+        color: var(--orange-500);
         margin-left: 20px;
     }
 
@@ -114,7 +114,7 @@ button {
     }
 
     .formato-pc-infos {
-        background-color: #FFF;
+        background-color: var(--white);
         width: 35vw;
         margin: 2%;
     }
@@ -124,7 +124,7 @@ button {
     }
 
     .saldo-pc i {
-        color: #F67816;
+        color: var(--orange-500);
         font-size: 2rem;
     }
 
@@ -147,7 +147,7 @@ button {
     .vendas-pc button {
         font-size: 0.8rem;
         padding: 0;
-        color: #F67816;
+        color: var(--orange-500);
     }
 
     .bloqueado-pc {
@@ -163,23 +163,23 @@ button {
     }
     
     .background-money-icon {
-        background-color: #D9D9D9;
+        background-color: var(--gray-100);
         border-radius: 100px;
         height: 60px;
         margin: 5%;
     }
 
     .alinhamento-favoritos {
-        color: #FFF;
+        color: var(--white);
         width: 65vw;
     }
     
     .alinhamento-favoritos button {
-        color: #F67816;
+        color: var(--orange-500);
     }
 
     .favoritos-opcao  {
-        background-color: #FFF;
+        background-color: var(--white);
         min-width: 150px;
         height: 150px;
         border-radius: 10px;
@@ -194,7 +194,7 @@ button {
     }
 
     .ultimas-transacoes {
-        background-color: #FFF;
+        background-color: var(--white);
         width: 67.5vw;
         margin-top: 2%;
         padding: 3%;
@@ -202,18 +202,18 @@ button {
     }
 
     .ultimas-transacoes button {
-        color: #F67816;
+        color: var(--orange-500);
     }
 
     .infoIcon {
         font-size: 4em;
-        color: #D9D9D9;
+        color: var(--gray-100);
     }
 
     .i-color {
         width: 20px;
         height: 50px;
-        background-color: #F67816;
+        background-color: var(--orange-500);
         margin-bottom: 5%;
     }
 
