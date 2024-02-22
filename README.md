@@ -182,3 +182,12 @@ Durante esta fase, o projeto foi dividido em quatro sprints, cada uma com metas 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=30A3DC)](https://www.linkedin.com/in/marcos-vinicios-b4467335/)
 
 </br></br>
+
+<div ><img src="https://avatars.githubusercontent.com/gabrielladeoms" style="border-radius:10px" width="100px;" alt=""/></div>
+
+<h3>Gabriella de Oliveira</h3>
+
+[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=30A3DC)](https://github.com/gabrielladeoms)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=30A3DC)](https://www.linkedin.com/in/gabriella-de-oliveira-563ab8240/)
+
+</br></br>
