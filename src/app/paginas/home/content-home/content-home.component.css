@@ -1,0 +1,220 @@
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+.home-content {
+    width: auto;
+    height: auto;
+    padding-top: 5%;
+    border: solid 5px var(--black);
+}
+
+.container-pai {
+    margin: 1%;     
+}
+
+.container-filho {
+    background-color: var(--white);
+    width: 25vw;
+    height: 100px;
+    border-radius: 20px;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30%;
+}
+
+.container-filho  h6 {
+    font-size: large;
+    margin-top: 5px;
+    color: var(--orange-500);
+}
+
+.container-filho  img {
+    width: 60px;
+}
+
+.title-pc {
+    display: none;
+}
+
+.mobile-hide {
+    display: none;
+}
+
+/* Pequenos smartphones */
+@media only screen and (max-width: 370px) {
+    .container-pai {
+        margin: 1%;     
+    }
+}
+
+/* Notebook */
+@media screen and (min-width: 600px) {
+
+    .container-pai {
+        margin: 5% 0;
+    }
+    .title-mobile {
+        display: none;
+    }
+
+    .title-pc {
+        display: block;
+    }
+
+    .container-filho {
+        width: 28vw;
+        margin-bottom: 0;
+    }
+
+    .terceira-fileira{
+        margin-bottom: 8%;
+    }
+
+}
+  
+  /* Desktop */
+@media screen and (min-width: 1000px) {
+
+    .mobile-hide {
+        display: flex;
+    }
+    .pesquisa input {
+        width: 67.5vw;
+    }
+
+    .pesquisa i {
+        font-size: 1.5rem;
+        color: var(--orange-500);
+        margin-left: 20px;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .title-mobile {
+        display: none;
+    }
+
+    .title-pc {
+        display: block;
+    }
+  
+    .home-content {
+        padding-top: 0; 
+    }
+
+    .formato-pc-infos {
+        background-color: var(--white);
+        width: 35vw;
+        margin: 2%;
+    }
+    
+    .eye-btn {
+        align-self: flex-end;
+    }
+
+    .saldo-pc i {
+        color: var(--orange-500);
+        font-size: 2rem;
+    }
+
+    .saldo-pc {
+        padding: 2%;
+    }
+
+    .saldo-alinhamento h3 {
+        margin-top: 3%;
+    }
+
+    .info-detalhada {
+        margin-left: 5%;
+    }
+
+    .info-detalhada p {
+        margin: 0;
+    }
+
+    .vendas-pc button {
+        font-size: 0.8rem;
+        padding: 0;
+        color: var(--orange-500);
+    }
+
+    .bloqueado-pc {
+        margin-top: 5%;
+    }
+    
+    .bloqueado-pc i {
+        font-size: 1.5rem;
+    }
+
+    .liberacoes-pc {
+        padding: 4%;
+    }
+    
+    .background-money-icon {
+        background-color: var(--gray-100);
+        border-radius: 100px;
+        height: 60px;
+        margin: 5%;
+    }
+
+    .alinhamento-favoritos {
+        color: var(--white);
+        width: 65vw;
+    }
+    
+    .alinhamento-favoritos button {
+        color: var(--orange-500);
+    }
+
+    .favoritos-opcao  {
+        background-color: var(--white);
+        min-width: 150px;
+        height: 150px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .favoritos-opcao i {
+        font-size: 2rem;
+    }
+
+    .ultimas-transacoes {
+        background-color: var(--white);
+        width: 67.5vw;
+        margin-top: 2%;
+        padding: 3%;
+        margin-bottom: 3%;
+    }
+
+    .ultimas-transacoes button {
+        color: var(--orange-500);
+    }
+
+    .infoIcon {
+        font-size: 4em;
+        color: var(--gray-100);
+    }
+
+    .i-color {
+        width: 20px;
+        height: 50px;
+        background-color: var(--orange-500);
+        margin-bottom: 5%;
+    }
+
+}

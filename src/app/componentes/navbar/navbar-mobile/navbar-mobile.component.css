@@ -1,0 +1,30 @@
+.navbar {
+  background: var(--black);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-fluid {
+  width: 50%;
+  margin: 0;
+}
+
+.navbar-brand {
+  font-family: Poppins, sans-serif;
+  color: var(--orange-500);
+}
+
+.nav-icones {
+  display: flex;
+  color: var(--orange-500);
+  font-size: 30px;
+  gap: 20px;
+  margin-right: 15px;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    display: none;
+  }
+}

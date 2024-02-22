@@ -1,0 +1,62 @@
+.noventa {
+    width: 90%;
+}
+
+/* Coloração para os textos em laranja */
+.laranja {
+    color: var(--orange-500);
+}
+
+.bg-orange {
+    background-color: var(--orange-500);
+    color: var(--white);
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+
+
+    /* Coloração cinza para as janelas expansivas do extrato */
+    .cinza {
+        background-color: var(--gray-100);
+    }
+
+    .centraliza {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hide-Desktop {
+        display: none;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 768px) {
+    .hide-mobile {
+        display: none;
+    }
+
+    .corDesktop {
+        background-color: var(--gray-500);
+    }
+
+    .letraPequena {
+        font-size: 0.7em;
+    }
+
+    .div-filtro {
+        width: 90%;
+    }
+
+    .infoIcon {
+        font-size: 5em;
+        /* color: #1082BE; */
+        color: var(--orange-500);
+    }
+
+    .letraPequena {
+        font-size: 0.7em;
+    }
+}

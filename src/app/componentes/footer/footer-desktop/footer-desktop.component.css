@@ -1,0 +1,23 @@
+.footer-desktop {
+  background-color: var(--white);
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  display: none;
+}
+
+.footer-desktop img {
+  height: 40px;
+}
+
+.footer-desktop p {
+  font-size: 0.7em;
+}
+
+@media (min-width: 550px) {
+  .footer-desktop {
+    padding: 20px;
+    display: block !important;
+  }
+}

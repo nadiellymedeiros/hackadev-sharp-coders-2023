@@ -1,0 +1,120 @@
+.extrato {
+  background: var(--black);
+  font-family: poppins, sans-serif;
+}
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: Poppins, sans-serif;
+} */
+
+/* .navbar-brand {
+  font-family: Poppins, sans-serif;
+  color: #fe6f25;
+}
+
+.navbar {
+  background: #000000;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+} */
+
+/* .container-fluid {
+  width: 50%;
+  margin: 0;
+} */
+
+.botaoextrato {
+  display: flex;
+  width: 350px;
+  justify-content: space-between;
+  background: var(--white);
+  padding: 10px 20px;
+  /* margin: 10px 10px; */
+  border-radius: 5px;
+  align-items: center;
+  color: var(--orange-500);
+}
+
+.botaoextrato button {
+  color: var(--white);
+  background: transparent;
+  border: none;
+}
+
+.botaoextrato i {
+  font-size: 30px;
+}
+.botaoextrato h3 {
+  font-size: 20px;
+}
+
+.btextrato {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background: var(--orange-500);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btextrato i {
+  color: var(--white);
+}
+
+.bttransacao {
+  display: flex;
+  margin: auto;
+  width: 350px;
+  justify-content: center;
+  background-color: var(--white);
+  border-radius: 5px;
+}
+
+.bttransacao button {
+  display: flex;
+  align-items: last baseline; /* Alinha os itens verticalmente ao centro */
+  background-color: var(--orange-500);
+  color: var(--white);
+  margin: 10px;
+  border-radius: 5px;
+
+  /* Ajuste do botão e da fonte */
+  font-size: 12px;
+  padding: 10px 20px;
+}
+
+.bttransacao button i {
+  margin-right: 10px; /* Adiciona um espaçamento entre o ícone e o texto */
+  color: var(--white);
+}
+
+.menu-icone {
+  color: var(--orange-500);
+  font-size: 20px;
+  padding-left: 5px;
+}
+
+.contentExtrato {
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+/* @media (min-width: 550px) { */
+@media (min-width: 768px) {
+  .extrato {
+    padding-top: 110px;
+    display: none;
+  }
+}

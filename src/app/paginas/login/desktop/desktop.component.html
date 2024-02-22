@@ -1,0 +1,45 @@
+<body>
+    
+    <div class="header">
+      <img src="../../../../assets/img-desktop-login/logo.svg" class="img-fluid" alt="Imagem responsiva">
+    </div>
+    
+    
+    <div class="main">
+        <div class="card-left">
+            <img src="../../../../assets/img-desktop-login/face.svg" class="principal" alt="Imagem principal">
+           
+            <div class="footer-card">
+              <p>Baixe o aplicativo SharpCodingPay</p>
+              <img src="../../../../assets/img-desktop-login/app-store.png" class="app-store" alt="Imagem responsiva">
+              <img src="../../../../assets/img-desktop-login/google.png" class="google" alt="Imagem responsiva">
+            </div>
+        </div>
+    
+        <div class="card-rigth">
+            <form [formGroup]="form" (submit)="autentication()">
+                <h3>Acesse sua conta</h3>
+                <div class="form-group">
+                  <input type="text" formControlName="userId" class="form-control" id="userId" aria-describedby="usuário" placeholder="Usuário" required>
+                </div>
+    
+                <div class="form-group">
+                  <input type="{{type}}" id="password" formControlName="password" class="form-control" placeholder="Senha" required>
+                  <i id="togglePassword" class="bi bi-eye-slash" (click)="togglePassword()"></i>
+                </div>
+    
+                <div class="p1">
+                  <a href="#"><p>Esqueceu a sua senha?</p></a>
+                  <button type="submit" id="loginButton" class="btn btn-primary" >Login</button>
+                </div>
+    
+                <div class="p2">
+                  <p>Ainda não tem conta? <a href="#">Cadastre-se</a></p>
+                </div>
+              </form>
+        </div>
+    </div>
+    
+<app-footer-desktop></app-footer-desktop>
+    
+    </body>

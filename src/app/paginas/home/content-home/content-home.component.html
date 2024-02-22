@@ -1,0 +1,187 @@
+<router-outlet></router-outlet>
+<div class="home-content bg-black mobile">
+
+    <div class="primeira-fileira d-flex justify-content-center">
+        <div class="vendas container-pai">
+            <button routerLink="/#">
+                <div class="container-filho">
+                    <img src="../../../../assets/home-images/vender.png" alt="ícone de venda">
+                    <h6 class="title-mobile">Vender</h6>
+                    <h6 class="title-pc">Minhas vendas</h6>
+                </div>
+            </button>
+        </div>
+
+        <div class="contas container-pai">
+            <button routerLink="/#">
+                <div class="container-filho">
+                    <img src="../../../../assets/home-images/pagar.png" alt="ícone de pagamento">
+                    <h6 class="title-mobile">Pagar</h6>
+                    <h6 class="title-pc">Realizar Pagamentos</h6>
+                </div>
+            </button>
+        </div>
+
+        <div class="poupar container-pai">
+            <button routerLink="/#">
+                <div class="container-filho">
+                    <img src="../../../../assets/home-images/poupar.png" alt="ícone de poupança">
+                    <h6 class="title-mobile">Poupar</h6>
+                    <h6 class="title-pc">Minha Poupança</h6>
+                </div>
+            </button>
+        </div>
+    </div>
+
+    <div class="segunda-fileira d-flex justify-content-center">
+        <div class="pix container-pai">
+            <button routerLink="/#">
+                <div class="container-filho">
+                    <img src="../../../../assets/home-images/pix.png" alt="ícone de pix">
+                    <h6 class="title-mobile">Pix</h6>
+                    <h6 class="title-pc">Transferências Pix</h6>
+                </div>
+            </button>
+        </div>
+
+        <div class="ted container-pai">
+            <button routerLink="/#">
+                <div class="container-filho">
+                    <img src="../../../../assets/home-images/ted.png" alt="ícone de transferência">
+                    <h6 class="title-mobile">Transferir</h6>
+                    <h6 class="title-pc">Transferências </h6>
+                </div>
+            </button>
+        </div>
+
+        <div class="cartoes container-pai">
+            <button routerLink="/#">
+                <div class="container-filho">
+                    <img src="../../../../assets/home-images/cartoes.png" alt="ícone de cartões">
+                    <h6 class="title-mobile">Cartões</h6>
+                    <h6 class="title-pc">Meus cartões</h6>
+                </div>
+            </button>
+        </div>
+    </div>
+
+    <div class="terceira-fileira d-flex justify-content-center">
+
+        <div class="recarga container-pai">
+            <button routerLink="/#">
+                <div class="container-filho">
+                    <img src="../../../../assets/home-images/recarga.png" alt="ícone de recarga">
+                    <h6 class="title-mobile">Recarga</h6>
+                    <h6 class="title-pc">Realizar Recarga</h6>
+                </div>
+            </button>
+        </div>
+
+        <div class="indicar container-pai">
+            <button routerLink="/#">
+                <div class="indicar container-filho">
+                    <img src="../../../../assets/home-images/indicar.png" alt="ícone de indicação">
+                    <h6 class="title-mobile">Indicar</h6>
+                    <h6 class="title-pc">Indicacar Plataforma</h6>
+                </div>
+            </button>
+        </div>
+
+        <div class="outros container-pai">
+            <button routerLink="/#">
+                <div class="container-filho">
+                    <img src="../../../../assets/home-images/outros.png" alt="ícone de três pontinhos (outros)">
+                    <h6 class="title-mobile">Outros</h6>
+                    <h6 class="title-pc">Outros Serviços</h6>
+                </div>
+            </button>
+        </div>
+    </div>
+
+</div>
+
+<div class="home-content bg-black mobile-hide pc flex-column justify-content-center align-items-center">
+
+    <div class="pesquisa">
+        <div class="pesquisa d-flex align-items-center">
+            <input type="text" placeholder="O que está procurando?">
+            <!-- <i class="bi bi-search"></i> -->
+        </div>
+    </div>
+
+    <div class="pc-infos d-flex">
+        <div class="saldo-pc formato-pc-infos d-flex flex-column">
+            <div class="saldo-alinhamento d-flex justify-content-between">
+                <h3>Saldo</h3>
+                <button class="eye-btn" routerLink="#"><i class="bi bi-eye-slash"></i></button>            
+            </div>
+            <div class="saldo-em-conta d-flex">
+                <h5>R$</h5><h5>0,00</h5>
+            </div>
+            <div class="info-detalhada">
+                <div class="vendas-pc">
+                    <p>Vendas a Receber</p>
+                    <div class="saldo-a-receber d-flex">
+                        <p>R$</p><p>0,00</p>
+                    </div>
+                    <button routerLink="#">Antecipar</button>
+                </div>
+                <div class="bloqueado-pc">
+                    <p>Bloqueado</p>
+                    <div class="saldo-bloqueado">
+                        <div class="saldo-alinhamento d-flex justify-content-between">
+                            <div class="saldo-bloqueado-alinhamento d-flex">
+                                <p>R$</p><p>0,00</p>
+                            </div>
+                            <button routerLink="#"><i class="bi bi-question-circle"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="liberacoes-pc formato-pc-infos d-flex flex-column">
+            <h4>Proximas Liberações</h4>
+            <div class="background-money-icon align-self-center d-flex align-items-center">
+                <i class="bi bi-currency-dollar align-self-center m-3 fs-2"></i>
+            </div>
+            <p>Você não possui valores a receber nos próximos 90 dias.</p>
+        </div>
+    </div>
+
+    <div class="favoritos">
+        <div class="alinhamento-favoritos d-flex justify-content-between">
+            <h6 class="align-self-lg-start">Meus Favoritos</h6>            
+            <button routerLink="#"><p>Personalizar</p></button>
+        </div>
+        <div class="favoritos-opcoes d-flex align-items-center justify-content-between">
+            <button class="pagar-contas favoritos-opcao" routerLink="/#">
+                <i class="bi bi-upc"></i>
+                <p>Pagar Contas</p>
+            </button>
+            <button class="boletos favoritos-opcao" routerLink="/#">
+                <i class="bi bi-upc-scan"></i>
+                <p>Boletos</p>
+            </button>
+            <button class="Transferências favoritos-opcao" routerLink="/#">
+                <i class="bi bi-arrow-left-right"></i>
+                <p>Transferências</p>
+            </button>
+            <button class="Extrato favoritos-opcao" routerLink="/extrato">
+                <i class="bi bi-file-earmark"></i>
+                <p>Extrato</p>
+            </button>
+        </div>
+    </div>
+
+    <div class="ultimas-transacoes">
+        <h4>Últimas Transações</h4>
+        <div class="alinhamento-ultims-transacoes d-flex flex-column align-items-center">
+            <div class="d-flex justify-content-center align-items-center i-color ">
+                <i class="bi bi-info-circle-fill infoIcon"></i>
+            </div>
+            <p>Você não possui transações nos últimos 3 dias.</p>
+            <button><p>Ver extrato completo</p></button>
+        </div>
+    </div>
+
+</div>

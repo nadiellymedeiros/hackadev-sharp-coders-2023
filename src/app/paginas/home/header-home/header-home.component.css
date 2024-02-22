@@ -1,0 +1,176 @@
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.navbar-brand {
+  font-family: Poppins, sans-serif;
+  color: var(--orange-500);
+}
+
+.navbar {
+  background-color: var(black);
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-fluid {
+  width: 50%;
+  margin: 0;
+}
+
+.header-home {
+  margin: 0 !important;
+  width: auto;
+  height: auto;
+  padding: 2%;
+  color: var(--orange-500);
+  border: solid 5px var(--black);
+}
+
+.header-home i {
+  font-size: 3rem;
+  color: var(--orange-500);
+}
+
+.header-home h3 {
+  color: var(--orange-500);
+  font-weight: 400;
+}
+
+.logo img {
+  width: 12vw;
+}
+
+.bi-house {
+  margin-right: 15px;
+}
+
+.formato {
+  background-color: var(--white);
+  padding: 3% 5%;
+  margin: 3%;
+  border-radius: 20px;
+}
+
+.saldo i {
+  font-size: 2rem;
+}
+
+.saldo button {
+  border: none;
+  background: none;
+}
+
+.vendas {
+  padding: 5%;
+}
+
+.saldo h4 {
+  font-weight: 7+ 00;
+}
+
+.saldo h6 {
+  background-color: var(--gray-100);
+  width: 80px;
+  height: 20px;
+  border-radius: 50px;
+  color: var(--orange-500);
+}
+
+.extrato button {
+  width: 85vw;
+  background-color: var(--orange-500);
+  color: var(--gray-100);
+  border-radius: 10px;
+  border: none;
+  font-size: 1.5rem;
+  margin-top: 5%;
+}
+
+.pc {
+  display: none;
+}
+
+.mobile-hide {
+  display: none;
+}
+
+/* Notebook */
+@media screen and (min-width: 900px) {
+  .formato {
+    padding: 3% 5%;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1000px) {
+  .header-home {
+    padding: 0;
+  }
+
+  .pc-hide {
+    display: none;
+  }
+
+  .pc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mobile {
+    display: none;
+    visibility: hidden;
+  }
+
+  .client-info {
+    color: var(--orange-500);
+  }
+
+  .vertical-line {
+    width: 1px;
+    height: 60px;
+    background-color: var(--orange-500);
+  }
+
+  .pc i {
+    font-size: 2rem;
+    margin: 0 20px;
+  }
+
+  .logo img {
+    width: 5vw;
+  }
+
+  .saldo {
+    flex-direction: column;
+  }
+
+  .formato {
+    width: 25vw;
+    height: 20vh;
+    padding: 2%;
+    margin-bottom: 1%;
+  }
+
+  .saldo {
+    margin-right: 9%;
+  }
+
+  .desktop {
+    flex-direction: row !important;
+  }
+
+  .extrato button {
+    width: 30vw;
+  }
+}
+
+@media (min-width: 550px) {
+  .header-home {
+    padding-top: 110px;
+  }
+}
