@@ -17,6 +17,15 @@
 
 O SharpCoding Pay é um projeto de plataforma fintech que visa oferecer soluções eficientes para transações financeiras. Este projeto tem como base estimular o aprendizado e a aplicação de práticas profissionais, indo desde o desenvolvimento técnico em diferentes camadas até o controle de versão utilizando Git e GitHub, além do processo de deploy.
 
+# Deploy do Projeto
+[Link de Aceso](https://hackadev-sharp-coders-2023.vercel.app/login)
+
+Login de teste: admin
+
+Senha de teste: admin
+
+Plataforma Utilizada: Vercel
+
 # Tecnologias Utilizadas
 
 ### Frontend
