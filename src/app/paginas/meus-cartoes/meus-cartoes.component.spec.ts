@@ -20,5 +20,5 @@ describe('MeusCartoesComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
-  
+
 });
