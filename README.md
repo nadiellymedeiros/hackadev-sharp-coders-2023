@@ -2,12 +2,10 @@
 
 <p>Bem-vindo ao repositório oficial do projeto SharpCoding Pay, desenvolvido pela equipe SharpCoding como parte do curso Sharp Coders. Este projeto fintech tem como objetivo simular um ambiente profissional, proporcionando aos membros da equipe uma experiência real no desenvolvimento de software, estimulando o trabalho colaborativo, o aprimoramento de soft skills e o crescimento técnico.</p>
 
-<h2>Deploy: </h2>
-
-
 # Sumário
 
 - [Descrição](#Descrição)
+- [Deploy do Projeto](#Deploy-do-Projeto)
 - [Tecnologias Utilizadas](#Tecnologias-Utilizadas)
 - [Features](#Features)
 - [Etapas do projeto](#Etapas-do-projeto)
@@ -18,7 +16,8 @@
 O SharpCoding Pay é um projeto de plataforma fintech que visa oferecer soluções eficientes para transações financeiras. Este projeto tem como base estimular o aprendizado e a aplicação de práticas profissionais, indo desde o desenvolvimento técnico em diferentes camadas até o controle de versão utilizando Git e GitHub, além do processo de deploy.
 
 # Deploy do Projeto
-[Link de Aceso](https://hackadev-sharp-coders-2023.vercel.app/login)
+
+[Link de Acesso](https://hackadev-sharp-coders-2023.vercel.app/login)
 
 Login de teste: admin
 
@@ -76,7 +75,7 @@ Durante esta fase, o projeto foi dividido em quatro sprints, cada uma com metas 
 
 #### Sprint 2: Desenvolvimento do Frontend
 
-- Na Sprint 2 alcançamos uma série de marcos cruciais que impulsionaram o desenvolvimento eficaz da interface do usuário.  
+- Na Sprint 2 alcançamos uma série de marcos cruciais que impulsionaram o desenvolvimento eficaz da interface do usuário.
   - O desenvolvimento da página de login foi desenvolvimento focando proporcionar uma visualização do sistema de autenticação para os usuários.
   - A página inicial (home) também foi elaborada, destacando-se pela sua acessibilidade, design responsivo e disposição lógica dos elementos.
   - Por fim, a página de transações (extrato) foi implementada, oferecendo aos usuários uma visão detalhada e organizada de suas atividades financeiras.
@@ -116,6 +115,7 @@ Durante esta fase, o projeto foi dividido em quatro sprints, cada uma com metas 
 
 [![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=30A3DC)](https://github.com/nadiellymedeiros)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=30A3DC)](https://www.linkedin.com/in/nadielly-xavier-de-medeiros/)
+
 </div>
 
 </br></br>
