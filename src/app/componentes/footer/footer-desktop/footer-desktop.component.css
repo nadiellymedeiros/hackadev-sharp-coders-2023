@@ -1,117 +1,23 @@
-bodyCards {
+.footer-desktop {
+  background-color: white;
+  text-align: center;
   width: 100%;
-  height: calc(100vh - 4rem);
-  background-color: #121214;
-  color: white;
-  display: flex;
-  justify-content: center;
-  margin: auto;
+  height: 100px;
+  padding: 10px;
+  display: none;
 }
 
-.cc {
-  /* width: 100%;
-  height: 100%; */
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  justify-content: center;
+.footer-desktop img {
+  height: 40px;
 }
 
-.cc-bg {
-  width: 100%;
-  height: 50%;
-  padding: 1rem;
-  background-color: #8357e5;
-  border-radius: 15px;
-  margin-top: 2rem;
+.footer-desktop p {
+  font-size: 0.7em;
 }
 
-.cc-logo {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.cc-info {
-  display: grid;
-  gap: 1.4rem;
-  z-index: 99;
-}
-
-.cc-holder,
-.cc-agency,
-.cc-currentAccount {
-  display: grid;
-  gap: 0.4rem;
-}
-
-.cc-number {
-  font-size: 2.4rem;
-  font-weight: bold;
-  line-height: 2.9rem;
-  letter-spacing: 0.04em;
-  color: #e8e8e8;
-  text-shadow: 0 0.12rem 0.32rem rgb(23 23 23 / 40%);
-}
-
-.cc .label {
-  font-size: 1rem;
-  font-weight: bold;
-  line-height: 1.2rem;
-  color: black;
-}
-
-.cc .value {
-  font-size: 1.4rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #e8e8e8;
-  text-shadow: 0 0.12rem 0.32rem rgb(23 23 23 / 40%);
-}
-
-.cc-extra {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/* .cc,
-.cc-logo,
-.cc-number {
-  position: relative;
-} */
-
-@media (max-width: 520px) {
-  .cc {
-    width: 100vw;
+@media (min-width: 550px) {
+  .footer-desktop {
+    padding: 20px;
+    display: block !important;
   }
-
-  .cc-bg {
-    width: 100%;
-    height: 40%;
-  }
-
-  .cc-info {
-    gap: 0.5rem;
-  }
-
-  .cc-number {
-    font-size: 1.4rem;
-  }
-
-  .cc .label {
-    font-size: 0.8rem;
-  }
-
-  .cc .value {
-    font-size: 1rem;
-  }
-}
-
-@media (min-width: 780px) {
-  /* .cc-bg {
-    width: 100vw;
-  } */
 }
