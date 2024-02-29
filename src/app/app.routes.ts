@@ -5,6 +5,9 @@ import { HomeComponent } from './paginas/home/home.component';
 import { LoginComponent } from './paginas/login/login.component';
 import { CadastroMobileComponent } from './paginas/cadastro/cadastro-mobile/cadastro-mobile.component';
 import { CartoesComponent } from './paginas/cartoes/cartoes.component';
+import { SaqueComponent } from './componentes/transacoes/saque/saque.component';
+import { TransferenciaComponent } from './componentes/transacoes/transferencia/transferencia.component';
+import { DepositoComponent } from './componentes/transacoes/deposito/deposito.component';
 
 export const routes: Routes = [
   { path: '', redirectTo: '/login', pathMatch: 'full' },
@@ -13,6 +16,9 @@ export const routes: Routes = [
   { path: 'extrato', component: ExtratoComponent },
   { path: 'cadastro', component: CadastroMobileComponent },
   { path: 'cartoes', component: CartoesComponent },
+  { path: 'deposito', component: DepositoComponent },
+  { path: 'transferencia', component: TransferenciaComponent },
+  { path: 'saque', component: SaqueComponent },
 ];
 
 @NgModule({

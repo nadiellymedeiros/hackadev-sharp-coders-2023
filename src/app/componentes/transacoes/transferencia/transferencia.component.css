@@ -1,0 +1,44 @@
+.bodyTransferencia {
+  width: 100%;
+  height: calc(100vh - 4rem);
+  background-color: var(--black);
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding-top: 110px;
+}
+
+.contentTransferencia {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 2rem;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input {
+  width: 250px;
+  background-color: var(--gray-500);
+  border-color: var(--gray-200);
+  color: white;
+}
+
+input::placeholder {
+  color: var(--gray-100);
+}
+
+input:focus {
+  background-color: #2d2e2f;
+  color: white !important;
+}
+
+.btn {
+  background-color: var(--orange-500);
+}
