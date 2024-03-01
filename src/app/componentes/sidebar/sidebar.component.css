@@ -16,21 +16,17 @@
     --gray-light: #c3c3c3;
 
 }
-
-body{
-    height: 100vh;
-    background: var(--body-color);
-}
     
 .sidebar{
     position: fixed;
-    top: 20%;
-    bottom: 15%;
+    top: 17%;
+    bottom: 0;
     left: 0;
     height: 100%;
-    width: 17%;      
+    width: 15%;      
     padding-left: 1%;
-    background: var(--sidebar-color);
+    background-color: #FFF;
+    overflow-y: auto;
 }
 
 .sidebar header{
@@ -99,3 +95,9 @@ header .imagem-texto .texto{
     color: var(--sidebar-text);
 
 }
+
+@media (max-width: 768px) {
+    .sidebar {
+      display: none;
+    }
+  }
