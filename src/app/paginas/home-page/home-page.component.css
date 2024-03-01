@@ -1,0 +1,129 @@
+*{
+    background: var(--black);
+}
+.container-fluid {
+    position: fixed;
+    top: 0px;
+    background-color:var(--black);
+    height: 106px;
+    width: 100%;
+    z-index: 9999;
+    justify-content: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.205);
+}
+
+.container-fluid .navbar-brand {
+    margin-left: 5%;
+}
+
+.collapse{
+    align-items: end;
+    background: rgba(0, 0, 0, 0.900);
+
+}
+
+.btn {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--orange-500);
+    --bs-btn-border-color: var(--orange-500);
+    --bs-btn-hover-color: var(--white);
+    --bs-btn-hover-bg: var(--orange-500);
+    --bs-btn-hover-border-color: var(--orange-100);
+    --bs-btn-focus-shadow-rgb: var(--orange-100);
+    --bs-btn-active-color: var(--orange-100);
+    --bs-btn-active-bg: var(--orange-100);
+
+    padding: 10px 20px;
+    margin: 10px;
+    align-items: end;
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 102, 0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler{
+    border-color: var(--orange-500);
+    color: var(--orange-100);
+}
+
+.container{
+    display: flex;
+    height: auto;
+    align-items: center;
+}
+
+.content{
+    margin-top: 120px;
+    margin-right: 20px;
+    padding: 40px 20px;
+    display: block;
+    text-align: justify;
+    width: 50%;
+    color: var(--white);
+
+}
+
+.content strong{
+    color: var(--orange-500);
+}
+
+.card{
+    background: var(--black);
+    display: block;
+    align-items: center;
+    border: none;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: -10px 10px 20px var(--black);
+    padding: 90px 0;
+
+}
+
+.footer{
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer img{
+    background-color: white;
+}
+.footer p{
+    background-color: white;
+}
+  
+.footer img {
+    height: 40px;
+}
+  
+.footer p {
+    font-size: 0.7em;
+}
+
+@media (max-width: 990px) {
+    .container{
+        display: block;
+    }
+
+    .content{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    .card img{
+        width: 100%;
+    }
+}
