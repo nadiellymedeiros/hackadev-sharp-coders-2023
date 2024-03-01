@@ -1,0 +1,40 @@
+<app-navbar></app-navbar>
+
+<form [formGroup]="formularioTransferencia">
+  <div class="bodyTransferencia">
+    <div class="contentTransferencia">
+      <p>Transferência</p>
+      <input
+        type="number"
+        formControlName="valorTransferencia"
+        placeholder="Informe o valor da Transferência"
+        class="form-control p-2"
+      />
+
+      <input
+        type="text"
+        formControlName="instituicao"
+        placeholder="Informe a instituição bancária"
+        class="form-control p-2 mt-2"
+      />
+
+      <input
+        type="text"
+        formControlName="agencia"
+        placeholder="Informe a agência"
+        class="form-control p-2 mt-2"
+      />
+      <input
+        type="text"
+        formControlName="contaCorrente"
+        placeholder="Informe a conta corrente"
+        class="form-control p-2 mt-2"
+      />
+
+      <button class="btn text-white mt-4">Transferência</button>
+    </div>
+  </div>
+</form>
+
+<app-footer-desktop></app-footer-desktop>
+<app-footer-mobile></app-footer-mobile>
