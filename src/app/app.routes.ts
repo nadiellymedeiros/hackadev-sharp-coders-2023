@@ -8,9 +8,11 @@ import { CartoesComponent } from './paginas/cartoes/cartoes.component';
 import { SaqueComponent } from './componentes/transacoes/saque/saque.component';
 import { TransferenciaComponent } from './componentes/transacoes/transferencia/transferencia.component';
 import { DepositoComponent } from './componentes/transacoes/deposito/deposito.component';
+import { HomePageComponent } from './paginas/home-page/home-page.component';
 
 export const routes: Routes = [
-  { path: '', redirectTo: '/login', pathMatch: 'full' },
+  { path: '', redirectTo: '/home-page', pathMatch: 'full' },
+  { path: 'home-page', component: HomePageComponent},
   { path: 'login', component: LoginComponent },
   { path: 'home', component: HomeComponent },
   { path: 'extrato', component: ExtratoComponent },
