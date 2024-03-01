@@ -1,1 +1,17 @@
+.extrato-body {
+  margin-top: 0;
+}
 
+.header-and-content {
+  padding-left: 0;
+}
+
+@media (min-width: 768px) {
+  .extrato-body {
+    margin-top: 80px;
+  }
+
+  .header-and-content {
+    padding-left: 15%;
+  }
+}
