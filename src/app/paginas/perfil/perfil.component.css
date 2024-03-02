@@ -4,6 +4,10 @@
     background-color: var(--black);
 }
 
+.dados-infos {
+    width: 80%;
+}
+
 .page-container {
     height: 100vh;
     color: var(--orange-100);
@@ -163,7 +167,7 @@
     }
 
     .botoes button {
-        margin-bottom: 5% !important;
+        /* margin-bottom: 5% !important; */
     }
 
     .botoes button:hover {

@@ -10,7 +10,6 @@ import { SaqueComponent } from './componentes/transacoes/saque/saque.component';
 import { TransferenciaComponent } from './componentes/transacoes/transferencia/transferencia.component';
 import { DepositoComponent } from './componentes/transacoes/deposito/deposito.component';
 import { HomePageComponent } from './paginas/home-page/home-page.component';
-import { PerfilComponent } from './paginas/perfil/perfil.component';
 
 export const routes: Routes = [
   { path: '', redirectTo: '/home-page', pathMatch: 'full' },
