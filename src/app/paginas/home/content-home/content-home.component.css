@@ -1,4 +1,3 @@
-
 a {
     text-decoration: none;
 }
@@ -16,14 +15,14 @@ button {
 }
 
 .container-pai {
-    margin: 1%;     
+    margin: 1%;
 }
 
 .container-filho {
     background-color: var(--white);
     width: 25vw;
     height: 100px;
-    border-radius: 20px;   
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,13 +30,13 @@ button {
     margin-bottom: 30%;
 }
 
-.container-filho  h6 {
+.container-filho h6 {
     font-size: large;
     margin-top: 5px;
     color: var(--orange-500);
 }
 
-.container-filho  img {
+.container-filho img {
     width: 60px;
 }
 
@@ -52,7 +51,7 @@ button {
 /* Pequenos smartphones */
 @media only screen and (max-width: 370px) {
     .container-pai {
-        margin: 1%;     
+        margin: 1%;
     }
 }
 
@@ -62,6 +61,7 @@ button {
     .container-pai {
         margin: 5% 0;
     }
+
     .title-mobile {
         display: none;
     }
@@ -75,18 +75,28 @@ button {
         margin-bottom: 0;
     }
 
-    .terceira-fileira{
+    .terceira-fileira {
         margin-bottom: 8%;
     }
 
+
+    .home-content {
+        padding-left: 15%;
+    }
+
 }
-  
-  /* Desktop */
+
+/* Desktop */
 @media screen and (min-width: 1000px) {
+
+    .home-content {
+        padding-left: 15%;
+    }
 
     .mobile-hide {
         display: flex;
     }
+
     .pesquisa input {
         width: 67.5vw;
     }
@@ -108,9 +118,9 @@ button {
     .title-pc {
         display: block;
     }
-  
+
     .home-content {
-        padding-top: 0; 
+        padding-top: 0;
     }
 
     .formato-pc-infos {
@@ -118,7 +128,7 @@ button {
         width: 35vw;
         margin: 2%;
     }
-    
+
     .eye-btn {
         align-self: flex-end;
     }
@@ -153,7 +163,7 @@ button {
     .bloqueado-pc {
         margin-top: 5%;
     }
-    
+
     .bloqueado-pc i {
         font-size: 1.5rem;
     }
@@ -161,7 +171,7 @@ button {
     .liberacoes-pc {
         padding: 4%;
     }
-    
+
     .background-money-icon {
         background-color: var(--gray-100);
         border-radius: 100px;
@@ -173,12 +183,12 @@ button {
         color: var(--white);
         width: 65vw;
     }
-    
+
     .alinhamento-favoritos button {
         color: var(--orange-500);
     }
 
-    .favoritos-opcao  {
+    .favoritos-opcao {
         background-color: var(--white);
         min-width: 150px;
         height: 150px;

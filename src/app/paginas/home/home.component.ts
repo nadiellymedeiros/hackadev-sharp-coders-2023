@@ -9,21 +9,23 @@ import { Router } from '@angular/router';
 import { FooterComponent } from '../../componentes/footer/footer.component';
 import { NavbarDesktopComponent } from '../../componentes/navbar/navbar-desktop/navbar-desktop.component';
 import { NavbarMobileComponent } from '../../componentes/navbar/navbar-mobile/navbar-mobile.component';
+import { SidebarComponent } from "../../componentes/sidebar/sidebar.component";
 
 @Component({
-  selector: 'app-home',
-  standalone: true,
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.css',
-  imports: [
-    CommonModule,
-    ContentHomeComponent,
-    HeaderHomeComponent,
-    FooterComponent,
-    FooterMobileComponent,
-    FooterDesktopComponent,
-    NavbarDesktopComponent,
-    NavbarMobileComponent,
-  ],
+    selector: 'app-home',
+    standalone: true,
+    templateUrl: './home.component.html',
+    styleUrl: './home.component.css',
+    imports: [
+        CommonModule,
+        ContentHomeComponent,
+        HeaderHomeComponent,
+        FooterComponent,
+        FooterMobileComponent,
+        FooterDesktopComponent,
+        NavbarDesktopComponent,
+        NavbarMobileComponent,
+        SidebarComponent
+    ]
 })
 export class HomeComponent {}
