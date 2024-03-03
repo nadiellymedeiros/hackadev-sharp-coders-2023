@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CadastroMobileComponent } from './cadastro-mobile.component';
+import { DesktopComponent } from './desktop.component';
 
-describe('CadastroMobileComponent', () => {
-  let component: CadastroMobileComponent;
-  let fixture: ComponentFixture<CadastroMobileComponent>;
+describe('DesktopComponent', () => {
+  let component: DesktopComponent;
+  let fixture: ComponentFixture<DesktopComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [CadastroMobileComponent]
+      imports: [DesktopComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(CadastroMobileComponent);
+    fixture = TestBed.createComponent(DesktopComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

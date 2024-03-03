@@ -1,0 +1,49 @@
+<main class="container ">
+    <div class="header">
+        <div>
+            <img src="../../../../assets/img-mobile-login/logo.jpeg" class="logo">
+        </div>
+        <div class="centralizar-div text">
+            <h1 class="fw-bold">Sharp Coding</h1>
+        </div>
+        <div class="centralizar-div">
+            <h1>Pay</h1>
+        </div>
+    </div>
+
+    <form [formGroup]="form" (ngSubmit)="submit()">
+    <div class="inputs">
+        <h4 class="texto2">Create your account</h4>
+        <div class="form-floating mb-3 ">
+            <input type="text" formControlName="userId"  id="userId" class="form-control" id="floatingInput" placeholder="User Id">
+            <label for="floatingInput">User Id</label>
+        </div>
+
+        <div class="form-floating mb-3 ">
+            <input type="email" formControlName="email"  id="email" class="form-control" id="floatingEmail" placeholder="E-mail">
+            <label for="floatingEmail">E-mail</label>
+        </div>
+
+        <div class="form-floating mb-3 ">
+            <input type="tel" formControlName="tel"  id="tel" class="form-control" id="floatingTel" placeholder="Número de telefone" mask="(00) 0 0000-0000">
+            <label for="floatingEmail">Número de telefone</label>
+        </div>
+
+        <div class="form-floating mb-3 ">
+            <input type="text" formControlName="cpf"  id="cpf" class="form-control" id="floatingCpf" placeholder="CPF / CNPJ" mask="CPF_CNPJ">
+            <label for="floatingCpf">CPF / CNPJ</label>
+        </div>
+
+        <div class="form-floating mb-3 input">
+            <input type="password" formControlName="password" id="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <p>Senha deve conter: no mínimo 8 caracteres, letras maisculas, minúsculas, número e caracteres especiais</p>
+            <i id="togglePassword" class="bi bi-eye-slash" (click)="togglePassword()"></i>
+            <label for="floatingPassword">Password</label>
+        </div>
+    </div>
+
+    <div class="button d-grid gap-2 d-md-flex justify-content-md-end">
+        <button type="submit" id="cadastroButton" class="btn btn-lg " style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; margin-bottom: 30px;" [disabled]="!form.valid">CADASTRE-SE</button>
+    </div>
+    </form>
+</main>
