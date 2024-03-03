@@ -23,6 +23,7 @@ export const routes: Routes = [
   { path: 'deposito', component: DepositoComponent },
   { path: 'transferencia', component: TransferenciaComponent },
   { path: 'saque', component: SaqueComponent },
+  { path: 'perfil', component: PerfilComponent },
 ];
 
 @NgModule({
