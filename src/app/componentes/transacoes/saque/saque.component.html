@@ -1,0 +1,19 @@
+<app-navbar></app-navbar>
+
+<form [formGroup]="formularioSaque">
+  <div class="bodySaque">
+    <div class="contentSaque">
+      <p>Saque</p>
+      <input
+        type="number"
+        formControlName="valorSaque"
+        placeholder="Informe o valor do saque"
+        class="form-control p-2"
+      />
+      <button class="btn text-white mt-4">Saque</button>
+    </div>
+  </div>
+</form>
+
+<app-footer-desktop></app-footer-desktop>
+<app-footer-mobile></app-footer-mobile>
