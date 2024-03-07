@@ -12,7 +12,12 @@
     </div>
 
     <form [formGroup]="form" (submit)="autentication()">
+        
     <div class="inputs">
+        <div class="alert alert-danger" role="alert">
+            Usuário ou senha incorretos!
+        </div>
+        
         <h4 class="texto2">Login to your account</h4>
         <div class="form-floating mb-3 ">
             <input type="email" formControlName="userId"  id="userId" class="form-control" id="floatingInput" placeholder="User Id">
