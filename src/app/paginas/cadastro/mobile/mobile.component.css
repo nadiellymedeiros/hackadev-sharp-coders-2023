@@ -6,7 +6,6 @@ html {
 }
 
 main {
-    height: 100vh;
     width: 100%;
     background: black;
 }
@@ -58,9 +57,33 @@ h4 {
     margin: 0px 40px 50px;
 }
 
+.p2 {
+    display: flex;
+    justify-content: center;
+}
+
+.p2 p {
+    color: var(--blue-500);
+    font-size: 0.8em;
+  }
+  
+  .p2 a {
+    color: var(--blue-500);
+  }
+  
+  .p2 a:hover {
+    color: var(--blue-200);
+  }
+
 button {
     background-color: #fe6f25;
     color: white;
+}
+
+button:disabled {
+    color: white;
+    background-color: #fe6f25;
+    border: none;
 }
 
 .button {

@@ -12,6 +12,9 @@
     </div>
 
     <form [formGroup]="form" (ngSubmit)="submit()">
+        <div id="alert-success" class="alert alert-success" role="alert" style="display: none;">
+            Cadastro realizado com Sucesso!
+        </div>
     <div class="inputs">
         <h4 class="texto2">Create your account</h4>
         <div class="form-floating mb-3 ">
@@ -45,5 +48,10 @@
     <div class="button d-grid gap-2 d-md-flex justify-content-md-end">
         <button type="submit" id="cadastroButton" class="btn btn-lg " style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; margin-bottom: 30px;" [disabled]="!form.valid">CADASTRE-SE</button>
     </div>
+
+    <div class="p2">
+        <p>Já possui uma conta? <a href="/login">Entrar</a></p>
+    </div>
+    
     </form>
 </main>

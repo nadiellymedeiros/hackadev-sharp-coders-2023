@@ -19,6 +19,9 @@
         <div class="card-rigth">
             <form [formGroup]="form" (ngSubmit)="submit()">
                 <h3>Crie sua conta</h3>
+                <div id="alert-success" class="alert alert-success" role="alert" style="display: none;">
+                  Cadastro realizado com Sucesso!
+                </div>
                 <div class="form-group">
                   <input type="text" formControlName="userId" class="form-control" id="userId" aria-describedby="usuário" placeholder="Usuário" required>
                 </div>
