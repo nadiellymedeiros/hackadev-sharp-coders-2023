@@ -56,7 +56,7 @@ export class DesktopComponent {
   });
 
   public submit() {
-    this.router.navigate(['/home-page']);
+    this.router.navigate(['/home']);
   }
 
 }
