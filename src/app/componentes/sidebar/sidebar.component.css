@@ -1,99 +1,113 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500&display=swap");
 
-* {
-  margin: 0px;
-  padding: 0px;
-  font-family: "Poppins";
-  box-sizing: border-box;
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+
 }
 
-:root {
-  --body-color: #000000;
-  --sidebar-color: #fff;
-  --sidebar-text: #504645;
-  --text-color: #005fdc;
-  --gray-light: #c3c3c3;
+/*:root{
+    --body-color:#000000;
+    --sidebar-color:#FFF;
+    --sidebar-text: #504645;
+    --text-color: #005fdc;
+    --gray-light: #c3c3c3;
+
+}*/
+    
+.sidebar{
+    position: fixed;
+    top: 17%;
+    bottom: 0;
+    left: 0;
+    height: 100vh;
+    width: 15%;      
+    padding-left: 1%;
+    background-color: #FFF;
+    overflow-y: auto;
+    z-index: 1;
 }
 
-.sidebar {
-  position: fixed;
-  top: 106px;
-  bottom: 0;
-  left: 0;
-  height: 100%;
-  width: 15%;
-  padding-left: 1%;
-  background-color: #fff;
-  overflow-y: auto;
+.sidebar header{
+    position: relative;
 }
 
-.sidebar header {
-  position: relative;
+.sidebar .texto{
+    color:#333333;
 }
 
-.sidebar .imagem {
-  min-width: 50px;
-  font-weight: bolder;
-  align-items: center;
+.sidebar .imagem{
+    min-width: 50px; 
+    font-weight:bolder;
+    align-items: center;
 }
 
-.sidebar header .imagem-texto {
-  display: flex;
-  align-items: center;
-  background: var(--gray-light);
+.sidebar header .imagem-texto{
+    display:flex;
+    align-items: center;
 }
 
-.sidebar .texto {
-  font-size: 14px;
-  font-weight: 1000;
-  color: var(--sidebar-text);
-  text-decoration: none;
+
+.sidebar .texto{
+    font-size: 14px;
+    font-weight: 1000;
+    color: #333333;
+    text-decoration: none;
 }
 
-header .imagem-texto .texto {
-  display: flex;
+header .imagem-texto .texto{
+    display: flex;
 }
 
-.sidebar li {
-  list-style: none;
-  display: flex;
-  align-items: center;
+.sidebar li{
+    list-style: none;
+    display: flex;
+    align-items: center;
 }
 
-.sidebar span {
-  color: var(--sidebar-text);
-  font-size: 13px;
+.sidebar span{
+    color: #333333; 
+    font-size: 13px;
 }
 
-.sidebar .menu-bar .menu .titulo1 {
-  display: flex;
-  align-items: center;
-  height: 5em;
+.sidebar .menu-bar .menu .titulo1{
+    display: flex;
+    align-items: center;
+    height: 5em;
 }
 
-.sidebar .menu-bar .menu .titulo2 {
-  display: flex;
-  align-items: center;
-  height: 5em;
+.sidebar .menu-bar .menu .titulo2{
+    display: flex;
+    align-items: center;
+    height: 5em;
 }
 
-.sidebar li a {
-  text-decoration: none;
-  align-items: center;
-  display: flex;
-  gap: 1rem;
+.sidebar li a{
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+
 }
 
-.sidebar .casa {
-  color: var(--sidebar-text);
+.sidebar .casa{
+    color: #333333;
 }
 
-.sidebar .figura {
-  color: var(--sidebar-text);
+.sidebar .figura{
+    color: #333333;
+
 }
 
-@media (max-width: 768px) {
-  .sidebar {
-    display: none;
+#linha {
+    width: 100%;
+    border: 1px solid #d9d9d9;
+}
+
+@media (max-width: 1000px) {
+    .sidebar {
+      display: none;
+    }
   }
-}
