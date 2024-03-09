@@ -1,0 +1,57 @@
+<body>
+    
+    <div class="header">
+      <img src="../../../../assets/img-desktop-login/logo.svg" class="img-fluid" alt="Imagem responsiva">
+    </div>
+    
+    
+    <div class="main">
+        <div class="card-left">
+            <img src="../../../../assets/img-desktop-login/face.svg" class="principal" alt="Imagem principal">
+           
+            <div class="footer-card">
+              <p>Baixe o aplicativo SharpCodingPay</p>
+              <img src="../../../../assets/img-desktop-login/app-store.png" class="app-store" alt="Imagem responsiva">
+              <img src="../../../../assets/img-desktop-login/google.png" class="google" alt="Imagem responsiva">
+            </div>
+        </div>
+    
+        <div class="card-rigth">
+            <form [formGroup]="form" (ngSubmit)="submit()">
+                <h3>Crie sua conta</h3>
+                <div class="form-group">
+                  <input type="text" formControlName="userId" class="form-control" id="userId" aria-describedby="usuário" placeholder="Usuário" required>
+                </div>
+
+                <div class="form-group">
+                  <input type="email" formControlName="email" class="form-control" id="email" aria-describedby="email" placeholder="E-mail" required>
+                </div>
+
+                <div class="form-group">
+                  <input type="tel" formControlName="tel" class="form-control" id="tel" aria-describedby="tel" placeholder="Número de telefone" mask="(00) 0 0000-0000" required>
+                </div>
+
+                <div class="form-group">
+                  <input type="text" formControlName="cpf" class="form-control" id="cpf" aria-describedby="cpf" placeholder="CPF / CNPJ" mask="CPF_CNPJ" required>
+                </div>
+    
+                <div class="form-group">
+                  <input type="{{type}}" id="password" formControlName="password" class="form-control" placeholder="Senha" required>
+                  <p>Senha deve conter: no mínimo 8 caracteres, letras maisculas, minúsculas, número e caracteres especiais</p>
+                  <i id="togglePassword" class="bi bi-eye-slash" (click)="togglePassword()"></i>
+                </div>
+    
+                <div class="p1">
+                  <button type="submit" id="cadastroButton" class="btn btn-primary" [disabled]="!form.valid">Cadastre-se</button>
+                </div>
+    
+                <div class="p2">
+                  <p>Já possui uma conta? <a href="/login">Entrar</a></p>
+                </div>
+              </form>
+        </div>
+    </div>
+    
+<app-footer-desktop></app-footer-desktop>
+    
+</body>

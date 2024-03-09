@@ -1,1 +1,2 @@
-<p>cadastro works!</p>
+<app-mobile *ngIf="mobileQuery.matches"></app-mobile>
+<app-desktop *ngIf="!mobileQuery.matches"></app-desktop>

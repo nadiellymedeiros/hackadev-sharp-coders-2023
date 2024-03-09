@@ -1,0 +1,167 @@
+* {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    background-color: var(--black);
+    width: 100%;
+    height: 100%;
+  }
+  
+  .header {
+    text-align: center;
+    position: relative;
+    margin: auto;
+    padding: 20px;
+    width: 100%;
+    height: 140px;
+    border-bottom: 2px solid gray;
+  }
+  
+  .header img {
+    width: 100%;
+    max-width: 471px;
+    height: 120px;
+  }
+  
+  .main {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .card-left {
+    width: 50%;
+    height: 100%;
+    text-align: end;
+    padding: 2%;
+  }
+  
+  .card-left .principal {
+    width: 60%;
+    max-width: 429px;
+  }
+  
+  .footer-card p {
+    float: left;
+    margin-top: 6%;
+    margin-left: 10%;
+    color: var(--gray-200);
+  }
+  
+  .card-left .app-store {
+    width: 100%;
+    max-width: 135px;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-right: 10px;
+    opacity: 40%;
+    cursor: pointer;
+  }
+  
+  .card-left .app-store:hover {
+    opacity: 100%;
+  }
+  
+  .card-left .google {
+    width: 100%;
+    max-width: 135px;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-right: 10px;
+    opacity: 40%;
+    cursor: pointer;
+  }
+  
+  .card-left .google:hover {
+    opacity: 100%;
+  }
+  
+  .card-rigth {
+    background-color: var(--white);
+    padding: 20px;
+    margin: auto;
+    width: 100%;
+    max-width: 406px;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .card-rigth h3 {
+    color: var(--gray-500);
+    font-size: 1.5em;
+  }
+  
+  .form-group {
+    margin: 10px;
+  }
+
+  .form-group p {
+    font-size: 10px;
+    color: red;
+  }
+  
+  .form-group i {
+    cursor: pointer;
+    position: absolute;
+    top: 57%;
+    right: 12%;
+  }
+  
+  .p1 {
+    text-align: left;
+    margin: 20px;
+  }
+  
+  .p1 a {
+    text-decoration: none;
+    font-size: 0.8em;
+    color: var(--blue-500);
+  }
+  
+  .p1 a:hover {
+    color: var(--blue-200);
+  }
+  
+  .p1 button {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--orange-500);
+    text-transform: uppercase;
+    border: none;
+  }
+  
+  .p1 button:hover {
+    background-color: var(--orange-100);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.603);
+  }
+  
+  .p2 p {
+    color: var(--blue-500);
+    font-size: 0.8em;
+  }
+  
+  .p2 a {
+    color: var(--blue-500);
+  }
+  
+  .p2 a:hover {
+    color: var(--blue-200);
+  }
+  
+  .footer {
+    background-color: var(--white);
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+  }
+  
+  .footer img {
+    height: 40px;
+  }
+  
+  .footer p {
+    font-size: 0.7em;
+  }
+  

@@ -1,0 +1,103 @@
+@import url('https://fonts.google.com/specimen/Poppins?query=poppins');
+
+body,
+html {
+    height: 100%;
+}
+
+main {
+    width: 100%;
+    background: black;
+}
+
+.header {
+    padding: 50px;
+}
+
+label {
+    color: #fe6f25;
+}
+
+h1 {
+    color: #fe6f25;
+    font-size: 30px;
+}
+
+h4 {
+    color: white;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100px;
+    max-height: 75px;
+    width: auto;
+    height: auto;
+}
+
+.centralizar-div {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    margin-top: 10px;
+}
+
+
+.texto2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.inputs {
+    margin: 0px 40px 50px;
+}
+
+.p2 {
+    display: flex;
+    justify-content: center;
+}
+
+.p2 p {
+    color: var(--blue-500);
+    font-size: 0.8em;
+  }
+  
+  .p2 a {
+    color: var(--blue-500);
+  }
+  
+  .p2 a:hover {
+    color: var(--blue-200);
+  }
+
+button {
+    background-color: #fe6f25;
+    color: white;
+}
+
+button:disabled {
+    color: white;
+    background-color: #fe6f25;
+    border: none;
+}
+
+.button {
+    margin: 0px 70px 0px;
+}
+
+.form-floating i {
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 20px;
+}
+
+.form-floating p {
+    color: red;
+}
