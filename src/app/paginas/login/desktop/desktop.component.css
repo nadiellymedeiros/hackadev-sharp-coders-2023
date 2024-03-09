@@ -99,8 +99,13 @@ body {
 .form-group i {
   cursor: pointer;
   position: absolute;
-  top: 36%;
-  right: 40px;
+  top: 20px;
+  right: 10px;
+}
+
+.form-group label {
+  font-size: 0.9em;
+  color: var(--gray-200);
 }
 
 .p1 {
@@ -158,4 +163,8 @@ body {
 
 .footer p {
   font-size: 0.7em;
+}
+
+.alert{
+  display: none;
 }

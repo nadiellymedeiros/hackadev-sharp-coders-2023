@@ -44,10 +44,13 @@ export class DesktopComponent {
       this.router.navigateByUrl('/home');
 
     }else{
+      const alert = document.getElementsByClassName('alert');
+          (alert[0] as HTMLElement).style.display = 'block';
 
-    alert('Usuário ou senha incorretos!');
-
+          setTimeout(() => {
+            (alert[0] as HTMLElement).style.display = 'none';
+          }, 3000);
+        
     }
   }
 }
-

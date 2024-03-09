@@ -18,15 +18,22 @@
     
         <div class="card-rigth">
             <form [formGroup]="form" (submit)="autentication()">
+              <div class="alert alert-danger" role="alert">
+                Usuário ou senha incorretos!
+              </div>
+
                 <h3>Acesse sua conta</h3>
-                <div class="form-group">
+                <div class="form-floating mb-3 input form-group">
                   <input type="text" formControlName="userId" class="form-control" id="userId" aria-describedby="usuário" placeholder="Usuário" required>
+                  <label for="floatingPassword">Usuário</label>
                 </div>
     
-                <div class="form-group">
+                
+                <div class="form-floating mb-3 input form-group">
                   <input type="{{type}}" id="password" formControlName="password" class="form-control" placeholder="Senha" required>
                   <i id="togglePassword" class="bi bi-eye-slash" (click)="togglePassword()"></i>
-                </div>
+                  <label for="floatingPassword">Senha</label>
+              </div>
     
                 <div class="p1">
                   <a href="#"><p>Esqueceu a sua senha?</p></a>

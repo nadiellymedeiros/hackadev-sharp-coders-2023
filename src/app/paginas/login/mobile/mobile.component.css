@@ -79,3 +79,8 @@ button {
     right: 15px;
     font-size: 20px;
 }
+
+.alert{
+    display: none;
+}
+  

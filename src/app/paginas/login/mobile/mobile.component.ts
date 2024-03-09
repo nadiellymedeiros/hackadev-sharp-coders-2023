@@ -45,7 +45,12 @@ export class MobileComponent {
 
     }else{
 
-    alert('Usuário ou senha incorretos!');
+      const alert = document.getElementsByClassName('alert');
+      (alert[0] as HTMLElement).style.display = 'block';
+
+      setTimeout(() => {
+        (alert[0] as HTMLElement).style.display = 'none';
+      }, 3000);
 
     }
   }
